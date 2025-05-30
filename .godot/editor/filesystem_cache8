@@ -1,16 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1748568969
+::res://::1748571045
 ::res://assests/::1748384857
 ::res://assests/sprites/::1748384857
 icon.svg::CompressedTexture2D::2972211944296538466::1747691562::1748295405::1::::<><>::
 New Piskel.png::CompressedTexture2D::6961130676298373536::1747964637::1748295405::1::::<><>::
-::res://scenes/::1748568114
-killzone.tscn::PackedScene::2092005764318543763::1748568114::0::1::::<><>::res://scripts/death_zone.gd
-kill_of_screen.tscn::PackedScene::8114234410534459637::1748568114::0::1::::<><>::res://scripts/kill_of_screen.gd
-main.tscn::PackedScene::5238641687439740944::1748568114::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>res://scripts/camera_2d.gd
-player.tscn::PackedScene::7006313082339014143::1748568114::0::1::::<><>::res://scripts/player.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
-::res://scripts/::1748568114
-camera_2d.gd::GDScript::-1::1748568114::0::1::::<>Camera2D<>::
-death_zone.gd::GDScript::-1::1748384502::0::1::::<>Area2D<>::
-kill_of_screen.gd::GDScript::-1::1748568054::0::1::::<>Area2D<>::
-player.gd::GDScript::-1::1748386742::0::1::::<>CharacterBody2D<>::
+::res://New folder/::1748570806
+::res://scenes/::1748570647
+killzone.tscn::PackedScene::2092005764318543763::1748570448::0::1::::<><>::res://scripts/death_zone.gd
+kill_of_screen.tscn::PackedScene::8114234410534459637::1748570448::0::1::::<><>::res://scripts/kill_of_screen.gd
+main.tscn::PackedScene::5238641687439740944::1748570447::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>res://scripts/camera_2d.gd
+player.tscn::PackedScene::7006313082339014143::1748570647::0::1::::<><>::res://scripts/player.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
+::res://scripts/::1748570648
+camera_2d.gd::GDScript::-1::1748570647::0::1::::<>Camera2D<>::
+death_zone.gd::GDScript::-1::1748570648::0::1::::<>Area2D<>::
+kill_of_screen.gd::GDScript::-1::1748570648::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1748570648::0::1::::<>CharacterBody2D<>::

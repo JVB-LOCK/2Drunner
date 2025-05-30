@@ -2,7 +2,3 @@ res://scenes/main.tscn
 res://scenes/player.tscn
 res://scenes/killzone.tscn
 res://scenes/kill_of_screen.tscn
-res://scripts/player.gd
-res://scripts/camera_2d.gd
-res://scripts/death_zone.gd
-res://scripts/kill_of_screen.gd
