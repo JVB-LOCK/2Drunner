@@ -8,6 +8,7 @@ size = Vector2(320, 300)
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(447, 391)
+collision_layer = 2
 script = ExtResource("1_m7drd")
 metadata/_edit_group_ = true
 
@@ -21,4 +22,6 @@ position = Vector2(80, -90)
 shape = SubResource("RectangleShape2D_wjn1f")
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.105
+wait_time = 0.5
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

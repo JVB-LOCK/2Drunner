@@ -4,6 +4,7 @@ extends CharacterBody2D
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 
+@onready var timer: Timer = $Timer
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -23,12 +24,14 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
-	
+#Makes you phase
 	if Input.is_action_just_pressed("phase"):
-
-		get_node("CollisionShape2D").queue_free()
+		get_node("CollisionShape2D").disabled = true
+		timer.start()
+#Pressing the unphase button makes you unphase
+	if Input.is_action_just_pressed("unphase"):
+		get_node("CollisionShape2D").disabled = false
 		
-		
+#When timer runs out unphase
 func _on_timer_timeout() -> void:
-	get_node("CollisionShape2D")
-	
+	get_node("CollisionShape2D").disabled = false

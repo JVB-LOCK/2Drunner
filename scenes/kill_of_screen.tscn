@@ -8,5 +8,6 @@ script = ExtResource("1_miyh6")
 [node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 0.001
 
 [connection signal="screen_exited" from="VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]
