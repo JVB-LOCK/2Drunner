@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1748384339
+death_zone.gd::GDScript::-1::1748384502::0::1::::<>Area2D<>::
+::res://assests/::1748294605
+::res://assests/sprites/::1748295405
+icon.svg::CompressedTexture2D::2972211944296538466::1747691562::1748295405::1::::<><>::
+New Piskel.png::CompressedTexture2D::6961130676298373536::1747964637::1748295405::1::::<><>::
+::res://scenes/::1748384067
+killzone.tscn::PackedScene::2092005764318543763::1748384514::0::1::::<><>::res://death_zone.gd
+main.tscn::PackedScene::5238641687439740944::1748384067::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png
+player.tscn::PackedScene::7006313082339014143::1748384067::0::1::::<><>::res://scripts/player.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
+::res://scripts/::1748384036
+player.gd::GDScript::-1::1748384502::0::1::::<>CharacterBody2D<>::
