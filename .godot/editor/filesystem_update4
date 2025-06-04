@@ -1,4 +1,6 @@
-res://scenes/main.tscn
 res://scenes/player.tscn
 res://scenes/killzone.tscn
 res://scenes/kill_of_screen.tscn
+res://scenes/pickup_phase.tscn
+res://scenes/main.tscn
+res://pick_ups/pickup.gd
