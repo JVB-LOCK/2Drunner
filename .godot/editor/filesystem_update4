@@ -1,10 +1,6 @@
-res://scenes/player.tscn
-res://scenes/killzone.tscn
-res://scenes/kill_of_screen.tscn
-res://scenes/pickup_phase.tscn
 res://scenes/main.tscn
-res://scripts/iteams.gd
-res://scripts/player.gd
-res://scripts/global.gd
-res://scripts/death_zone.gd
+res://scenes/menu.tscn
+res://scripts/menu.gd
+res://scenes/level_1.tscn
 res://scripts/main.gd
+res://scripts/player.gd

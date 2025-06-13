@@ -29,6 +29,9 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
+#Dash
+	if Input.is_action_just_pressed("Dash"):
+		velocity.x = direction + 1000
 #Makes you phase
 	if Input.is_action_just_pressed("phase") and is_phased == false and Global.phased_unlocked == true and phase_timeout == false:
 		is_phased = true
