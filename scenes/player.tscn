@@ -1,8 +1,10 @@
 [gd_scene load_steps=5 format=3 uid="uid://c6257nqclgmx8"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_m7drd"]
-[ext_resource type="Texture2D" uid="uid://bil05qleo8mec" path="res://assests/sprites/icon.svg" id="1_qwaco"]
 [ext_resource type="Script" path="res://scripts/inventory.gd" id="3_80q5g"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yxiwh"]
+load_path = "res://.godot/imported/Blue.png-8a298679007b1c42ab82003a916c0018.ctex"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wjn1f"]
 size = Vector2(320, 300)
@@ -15,7 +17,7 @@ metadata/_edit_group_ = true
 [node name="AnimatedSprite2D" type="Sprite2D" parent="."]
 position = Vector2(80, -90)
 scale = Vector2(2.5, 2.34375)
-texture = ExtResource("1_qwaco")
+texture = SubResource("CompressedTexture2D_yxiwh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(80, -90)
