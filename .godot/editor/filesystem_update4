@@ -1,5 +1,9 @@
 res://scenes/main.tscn
 res://scripts/player.gd
-res://pick_ups/phaseunlocked.gd
 res://scenes/menu.tscn
 res://scenes/player.tscn
+res://scripts/menu.gd
+res://scenes/upgrade.tscn
+res://scripts/upgrade.gd
+res://scenes/test.tscn
+res://scripts/test.gd

@@ -12,7 +12,7 @@ var phase_timeout = false
 var can_dash = true
 var is_dashing = false
 var jump_count = 0
-var max_jumps = 10  # Allows for double jump
+var max_jumps = 3  # Allows for double jump
 
 @onready var timer: Timer = $Phaseout
 @onready var collision_shape: CollisionShape2D = $CollisionShape2D
@@ -29,16 +29,17 @@ func _ready() -> void:
 	dash_cooldown_timer.one_shot = true
 	dash_cooldown_timer.timeout.connect(_enable_dash)
 	
-	# Reset jump count when on floor
-	if is_on_floor():
-		jump_count = 0
-
-# Skip movement if dashing
+	# Skip movement if dashing
 	if is_dashing:
 		move_and_slide()
 	return
 	
-#Handle jump (with double jump)
+				
+func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta	
+	#Handle jump (with double jump)
 	if Input.is_action_just_pressed("jump"):
 		if is_on_floor():
 			velocity.y = JUMP_VELOCITY
@@ -46,18 +47,16 @@ func _ready() -> void:
 		elif jump_count < max_jumps - 1:  # Allows one additional jump
 			velocity.y = JUMP_VELOCITY * 0.9  # Slightly weaker double jump
 			jump_count += 1
-				
-func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-
+			
+# Reset jump count when on floor
+	if is_on_floor():
+		jump_count = 0
+	
 	# Handle jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
 	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
 	# Get input direction
 	var direction := Input.get_axis("left", "right")
 	if direction:
@@ -74,10 +73,7 @@ func _physics_process(delta: float) -> void:
 		dash_cooldown_timer.start(DASH_COOLDOWN)
 		
 	move_and_slide()
-
-
 	
-
 #Makes you phase
 	if Input.is_action_just_pressed("phase") and is_phased == false and Global.phased_unlocked == true and phase_timeout == false:
 		is_phased = true
