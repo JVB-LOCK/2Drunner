@@ -1,9 +1,9 @@
+res://scenes/test.tscn
 res://scenes/main.tscn
-res://scripts/player.gd
 res://scenes/menu.tscn
 res://scenes/player.tscn
-res://scripts/menu.gd
 res://scenes/upgrade.tscn
-res://scripts/upgrade.gd
-res://scenes/test.tscn
+res://scripts/player.gd
 res://scripts/test.gd
+res://scenes/kill_of_screen.tscn
+res://scripts/kill_of_screen.gd
