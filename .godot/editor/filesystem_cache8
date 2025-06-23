@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750287585
+::res://::1750712921
 ::res://assests/::1750110659
 ::res://assests/sprites/::1750110706
 Blue.png::CompressedTexture2D::509784074505766512::1750110689::1750110706::1::::<><>::
@@ -7,25 +7,25 @@ icon.svg::CompressedTexture2D::2972211944296538466::1747691562::1748295405::1:::
 New Piskel.png::CompressedTexture2D::6961130676298373536::1747964637::1748295405::1::::<><>::
 ::res://pick_ups/::1750110997
 phaseunlocked.gd::GDScript::-1::1750110997::0::1::::<>Area2D<>::
-::res://scenes/::1750201187
+::res://scenes/::1750290587
 killzone.tscn::PackedScene::2092005764318543763::1749777869::0::1::::<><>::res://scripts/death_zone.gd
-kill_of_screen.tscn::PackedScene::8114234410534459637::1749777869::0::1::::<><>::res://scripts/kill_of_screen.gd
+kill_of_screen.tscn::PackedScene::8114234410534459637::1750290587::0::1::::<><>::res://scripts/kill_of_screen.gd
 level_1.tscn::PackedScene::2996411390579160798::1749779058::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png
-main.tscn::PackedScene::5238641687439740944::1750200639::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>res://scripts/main.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>res://scripts/iteams.gd<>res://scripts/camera_2d.gd<>uid://bixqptihtbudq::::res://scenes/level_1.tscn<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
-menu.tscn::PackedScene::8569543256936398524::1750200640::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>res://scripts/menu.gd
+main.tscn::PackedScene::5238641687439740944::1750290254::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>res://scripts/main.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>res://scripts/iteams.gd<>res://scripts/camera_2d.gd<>uid://bixqptihtbudq::::res://scenes/level_1.tscn<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
+menu.tscn::PackedScene::8569543256936398524::1750290254::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>res://scripts/menu.gd
 pickup_phase.tscn::PackedScene::3219374648493025327::1749777869::0::1::::<><>::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
-player.tscn::PackedScene::7006313082339014143::1750200640::0::1::::<><>::res://scripts/player.gd<>res://scripts/inventory.gd
-test.tscn::PackedScene::9170666969001534484::1750201187::0::1::::<><>::res://scripts/test.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
-upgrade.tscn::PackedScene::4866716437064642056::1750200700::0::1::::<><>::res://scripts/upgrade.gd
-::res://scripts/::1750199705
+player.tscn::PackedScene::7006313082339014143::1750290255::0::1::::<><>::res://scripts/player.gd<>res://scripts/inventory.gd
+test.tscn::PackedScene::9170666969001534484::1750290255::0::1::::<><>::res://scripts/test.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
+upgrade.tscn::PackedScene::4866716437064642056::1750290255::0::1::::<><>::res://scripts/upgrade.gd
+::res://scripts/::1750290254
 camera_2d.gd::GDScript::-1::1749080214::0::1::::<>Camera2D<>::
 death_zone.gd::GDScript::-1::1749683499::0::1::::<>Area2D<>::
 global.gd::GDScript::-1::1749777332::0::1::::<>Node<>::
 inventory.gd::GDScript::-1::1748991593::0::1::::Inventory<>Node<>::
 iteams.gd::GDScript::-1::1749684027::0::1::::<>Node2D<>::
-kill_of_screen.gd::GDScript::-1::1748570648::0::1::::<>Area2D<>::
+kill_of_screen.gd::GDScript::-1::1750290254::0::1::::<>Area2D<>::
 main.gd::GDScript::-1::1749779145::0::1::::<>Node2D<>::
 menu.gd::GDScript::-1::1750198905::0::1::::<>Control<>::
-player.gd::GDScript::-1::1750198884::0::1::::<>CharacterBody2D<>::
-test.gd::GDScript::-1::1750199705::0::1::::<>Control<>::
+player.gd::GDScript::-1::1750289816::0::1::::<>CharacterBody2D<>::
+test.gd::GDScript::-1::1750289843::0::1::::<>Control<>::
 upgrade.gd::GDScript::-1::1750199386::0::1::::<>Control<>::

@@ -1,9 +1,0 @@
-res://scenes/test.tscn
-res://scenes/main.tscn
-res://scenes/menu.tscn
-res://scenes/player.tscn
-res://scenes/upgrade.tscn
-res://scripts/player.gd
-res://scripts/test.gd
-res://scenes/kill_of_screen.tscn
-res://scripts/kill_of_screen.gd
