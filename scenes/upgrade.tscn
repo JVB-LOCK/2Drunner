@@ -1,17 +1,32 @@
-[gd_scene load_steps=2 format=3 uid="uid://cblqdxvwbxfmu"]
+[gd_scene load_steps=3 format=3 uid="uid://cblqdxvwbxfmu"]
 
+[ext_resource type="Script" path="res://scripts/back.gd" id="1_0hi44"]
 [ext_resource type="Script" path="res://scripts/upgrade.gd" id="1_x76up"]
 
-[node name="Upgrademenu" type="GridContainer"]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-columns = 9
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Upgrademenu" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 1149.0
+offset_bottom = 644.0
+columns = 10
 script = ExtResource("1_x76up")
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 2
+offset_left = 1.0
+offset_top = 616.0
+offset_right = 46.0
+offset_bottom = 647.0
+text = "Back"
+script = ExtResource("1_0hi44")
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]
+[connection signal="timeout" from="Timer" to="Upgrademenu" method="_on_timer_timeout"]

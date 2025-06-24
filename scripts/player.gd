@@ -12,7 +12,7 @@ var phase_timeout = false
 var can_dash = true
 var is_dashing = false
 var jump_count = 0
-var max_jumps = 3  # Allows for double jump
+var max_jumps = 2  # Allows for double jump
 
 @onready var timer: Timer = $Phaseout
 @onready var collision_shape: CollisionShape2D = $CollisionShape2D
@@ -65,8 +65,8 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	
 # Handle dash
-	if Input.is_action_just_pressed("Dash") and can_dash:
-		_start_dash(direction)
+	if Input.is_action_just_pressed("dash") and can_dash:
+		_start_dash()
 		var dash_direction = direction if direction != 0 else sign(velocity.x) if velocity.x != 0 else 1
 		velocity = Vector2(dash_direction * DASH_SPEED, 0)
 		dash_timer.start(DASH_DURATION)
@@ -97,8 +97,7 @@ func _on_can_phase_timeout() -> void:
 	phase_timeout = false
 
 
-
-func _start_dash(direction: float):
+func _start_dash( ):
 	can_dash = false
 	is_dashing = true
 	collision_shape.disabled = true  # Phase through walls

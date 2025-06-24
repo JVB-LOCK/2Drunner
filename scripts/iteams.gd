@@ -5,6 +5,7 @@ extends Node2D
 func _ready() -> void:
 	$Pickup_Phase.unlockedphase.connect(phase)
 	
+
 func phase(_body):
 	print("Unlocked Phased")
 	Global.phased_unlocked = true

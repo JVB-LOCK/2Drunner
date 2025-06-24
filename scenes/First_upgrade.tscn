@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://d3wlssfyq34aa"]
 
-[ext_resource type="Script" path="res://scripts/test.gd" id="1_ohbys"]
-[ext_resource type="Texture2D" uid="uid://bil05qleo8mec" path="res://assests/sprites/icon.svg" id="2_8u55i"]
+[ext_resource type="Script" path="res://scripts/SpawnUpgrade.gd" id="1_hcmbe"]
+[ext_resource type="Texture2D" uid="uid://hi7cma5ft20k" path="res://assests/sprites/Blue.png" id="2_itas6"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5ik5j"]
 content_margin_left = 3.0
@@ -21,7 +21,7 @@ corner_radius_top_right = 180
 corner_radius_bottom_right = 180
 corner_radius_bottom_left = 180
 
-[node name="Test" type="PanelContainer"]
+[node name="First upgrade" type="PanelContainer"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -30,7 +30,7 @@ offset_right = -977.0
 offset_bottom = -407.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ohbys")
+script = ExtResource("1_hcmbe")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
@@ -40,7 +40,8 @@ metadata/_edit_group_ = true
 
 [node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
 layout_mode = 2
-texture = ExtResource("2_8u55i")
+texture = ExtResource("2_itas6")
+expand_mode = 4
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
@@ -51,7 +52,8 @@ metadata/_edit_group_ = true
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_5ik5j")
-text = "Apple"
+text = "PlaceHolder
+"
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
