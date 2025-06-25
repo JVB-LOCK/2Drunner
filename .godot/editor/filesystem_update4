@@ -1,11 +1,7 @@
-res://scenes/test.tscn
-res://scenes/First_upgrade.tscn
-res://scripts/player.gd
-res://scripts/upgrade.gd
 res://scenes/main.tscn
 res://scenes/menu.tscn
 res://scenes/player.tscn
 res://scenes/upgrade.tscn
+res://scenes/First_upgrade.tscn
 res://scenes/pickup_phase.tscn
-res://scripts/SpawnUpgrade.gd
-res://scripts/back.gd
+res://scripts/player.gd

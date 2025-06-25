@@ -5,7 +5,7 @@ const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 const DASH_SPEED = 4000.0
 const DASH_DURATION = 0.2
-const DASH_COOLDOWN = 0.5
+const DASH_COOLDOWN = 1
 
 var is_phased = false
 var phase_timeout = false
@@ -34,17 +34,18 @@ func _ready() -> void:
 		move_and_slide()
 	return
 	
-				
+
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
-		velocity += get_gravity() * delta	
+		velocity += get_gravity() * delta
+		
 	#Handle jump (with double jump)
 	if Input.is_action_just_pressed("jump"):
 		if is_on_floor():
 			velocity.y = JUMP_VELOCITY
 			jump_count += 1
-		elif jump_count < max_jumps - 1:  # Allows one additional jump
+		elif jump_count < max_jumps - 1:  # Allows  additional jump
 			velocity.y = JUMP_VELOCITY * 0.9  # Slightly weaker double jump
 			jump_count += 1
 			
@@ -52,7 +53,7 @@ func _physics_process(delta: float) -> void:
 	if is_on_floor():
 		jump_count = 0
 	
-	# Handle jump.
+	# Handle jump normaly.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
@@ -66,12 +67,12 @@ func _physics_process(delta: float) -> void:
 	
 # Handle dash
 	if Input.is_action_just_pressed("dash") and can_dash:
-		_start_dash()
+		_start_dash(direction) 
 		var dash_direction = direction if direction != 0 else sign(velocity.x) if velocity.x != 0 else 1
 		velocity = Vector2(dash_direction * DASH_SPEED, 0)
+		
 		dash_timer.start(DASH_DURATION)
 		dash_cooldown_timer.start(DASH_COOLDOWN)
-		
 	move_and_slide()
 	
 #Makes you phase
@@ -91,13 +92,12 @@ func _on_timer_timeout() -> void:
 		get_node("CollisionShape2D").disabled = false
 		is_phased = false
 		print("Auto timed out")
-			
+
 
 func _on_can_phase_timeout() -> void:
 	phase_timeout = false
 
-
-func _start_dash( ):
+func _start_dash(direction):
 	can_dash = false
 	is_dashing = true
 	collision_shape.disabled = true  # Phase through walls

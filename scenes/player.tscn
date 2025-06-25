@@ -29,7 +29,5 @@ one_shot = true
 [node name="PhaseTimeout" type="Timer" parent="."]
 wait_time = 2.0
 
-[node name="Inventory" type="Node" parent="."]
-
 [connection signal="timeout" from="Phaseout" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="PhaseTimeout" to="." method="_on_can_phase_timeout"]
