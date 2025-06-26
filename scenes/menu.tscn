@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dudfei8lwhewi"]
 
 [ext_resource type="Texture2D" uid="uid://c6ga2m21buku7" path="res://assests/sprites/New Piskel.png" id="1_57c5l"]
-[ext_resource type="Script" path="res://scripts/menu.gd" id="1_p1r3d"]
+[ext_resource type="Script" uid="uid://b8g7v4pibplla" path="res://scripts/menu.gd" id="1_p1r3d"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3

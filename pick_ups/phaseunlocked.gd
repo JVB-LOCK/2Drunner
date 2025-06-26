@@ -3,10 +3,15 @@ extends Area2D
 signal unlockedphase
 
 func _ready():
-	body_entered.connect(phase)
 	
-	
-func phase(_body):
-	print("Picked Up")
-	emit_signal("unlockedphase", phase)
+	# Check if already collected and hide if true
+	if Global.phased_picked_up == true:
+		queue_free()  
+	else:
+		visible = true
+func _on_body_entered(body):
+	if not Global.phased_unlocked:
+		print("Phase Ability Picked Up")
+		Global.phased_picked_up = true
+		Global.phased_unlocked = true
 	queue_free()

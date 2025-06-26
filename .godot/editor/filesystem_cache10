@@ -1,0 +1,33 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1750928326
+::res://assests/::1750927759
+::res://assests/sprites/::1750928297
+Blue.png::CompressedTexture2D/CompressedTexture2D::509784074505766512::1750927759::1750928297::1::::<><><>0<>0<>3474a1eade891cc43042dbf4773b3592<>res://.godot/imported/Blue.png-8a298679007b1c42ab82003a916c0018.ctex::
+icon.svg::CompressedTexture2D/CompressedTexture2D::2972211944296538466::1750927759::1750928297::1::::<><><>0<>0<>2c13192efe12c07046d838cf7f4ead2c<>res://.godot/imported/icon.svg-b4bc430b2eac07d3e4f5554c6ec89e56.ctex::
+New Piskel.png::CompressedTexture2D/CompressedTexture2D::6961130676298373536::1750927759::1750928297::1::::<><><>0<>0<>89d0ab51a0fb38160d5c0e508fbe97b3<>res://.godot/imported/New Piskel.png-9a02c53623a13bdfb434693069fecc42.ctex::
+::res://pick_ups/::1750932157
+phaseunlocked.gd::GDScript::7312825219234335622::1750932157::0::1::::<>Area2D<><>0<>0<><>::
+::res://scenes/::1750933107
+First_upgrade.tscn::PackedScene::9170666969001534484::1750933107::0::1::::<><><>0<>0<><>::uid://donmsbjvg31te::::res://scripts/SpawnUpgrade.gd<>uid://hi7cma5ft20k::::res://assests/sprites/Blue.png
+killzone.tscn::PackedScene::2092005764318543763::1750928329::0::1::::<><><>0<>0<><>::uid://dulj1iic4whc::::res://scripts/death_zone.gd
+kill_of_screen.tscn::PackedScene::8114234410534459637::1750928329::0::1::::<><><>0<>0<><>::uid://duol8cbicnglk::::res://scripts/kill_of_screen.gd
+level_1.tscn::PackedScene::2996411390579160798::1750928329::0::1::::<><><>0<>0<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png
+main.tscn::PackedScene::5238641687439740944::1750933107::0::1::::<><><>0<>0<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://ch8obvreeocvn::::res://scripts/main.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd<>uid://bixqptihtbudq::::res://scenes/level_1.tscn<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn<>uid://bhudkyf714ve0::::res://scripts/back.gd
+menu.tscn::PackedScene::8569543256936398524::1750933107::0::1::::<><><>0<>0<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://b8g7v4pibplla::::res://scripts/menu.gd
+pickup_phase.tscn::PackedScene::3219374648493025327::1750933107::0::1::::<><><>0<>0<><>::uid://dcgnfsmlp83yo::::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
+player.tscn::PackedScene::7006313082339014143::1750933107::0::1::::<><><>0<>0<><>::uid://byhubjfwy52ix::::res://scripts/player.gd
+death_screen.tscn::PackedScene::3988385478202664777::1750933107::0::1::::<><><>0<>0<><>::uid://c2ckyk8moof8q::::res://scripts/death_screen.gd
+upgrade.tscn::PackedScene::4866716437064642056::1750933107::0::1::::<><><>0<>0<><>::uid://bhudkyf714ve0::::res://scripts/back.gd<>uid://b8him1a3fjrns::::res://scripts/upgrade.gd
+::res://scripts/::1750933105
+back.gd::GDScript/GDScript::2919231422932139709::1750927759::0::1::::<>Button<><>0<>0<><>::
+camera_2d.gd::GDScript/GDScript::3683496532032892109::1750927759::0::1::::<>Camera2D<><>0<>0<><>::
+death_zone.gd::GDScript/GDScript::252539423393728464::1750927759::0::1::::<>Area2D<><>0<>0<><>::
+global.gd::GDScript::1906261771426555155::1750932132::0::1::::<>Node<><>0<>0<><>::
+iteams.gd::GDScript::1794649479583172358::1750932132::0::1::::<>Node2D<><>0<>0<><>::
+kill_of_screen.gd::GDScript::8592667137474259424::1750933105::0::1::::<>Area2D<><>0<>0<><>::
+main.gd::GDScript/GDScript::5333140691868705231::1750927759::0::1::::<>Node2D<><>0<>0<><>::
+menu.gd::GDScript/GDScript::4717020782427700842::1750927759::0::1::::<>Control<><>0<>0<><>::
+player.gd::GDScript::4086620182400566275::1750933105::0::1::::<>CharacterBody2D<><>0<>0<><>::
+death_screen.gd::GDScript::6672719506879116310::1750932959::0::1::::<>CanvasLayer<><>0<>0<><>::
+SpawnUpgrade.gd::GDScript::8169503588407902354::1750931405::0::1::::<>Control<><>0<>0<><>::
+upgrade.gd::GDScript/GDScript::4717611700381929768::1750927760::0::1::::<>Control<><>0<>0<><>::

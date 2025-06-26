@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cblqdxvwbxfmu"]
 
-[ext_resource type="Script" path="res://scripts/back.gd" id="1_0hi44"]
-[ext_resource type="Script" path="res://scripts/upgrade.gd" id="1_x76up"]
+[ext_resource type="Script" uid="uid://bhudkyf714ve0" path="res://scripts/back.gd" id="1_0hi44"]
+[ext_resource type="Script" uid="uid://b8him1a3fjrns" path="res://scripts/upgrade.gd" id="1_x76up"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -17,15 +17,17 @@ columns = 10
 script = ExtResource("1_x76up")
 
 [node name="Back" type="Button" parent="."]
-layout_mode = 2
-offset_left = 1.0
-offset_top = 616.0
-offset_right = 46.0
-offset_bottom = 647.0
+layout_mode = 1
+offset_left = 2.0
+offset_top = 615.0
+offset_right = 47.0
+offset_bottom = 646.0
 text = "Back"
 script = ExtResource("1_0hi44")
+metadata/_edit_use_anchors_ = true
 
 [node name="Timer" type="Timer" parent="."]
+wait_time = 0.001
 one_shot = true
 autostart = true
 
