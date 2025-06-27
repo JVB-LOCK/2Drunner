@@ -9,7 +9,7 @@ func _ready():
 		queue_free()  
 	else:
 		visible = true
-func _on_body_entered(body):
+func _on_body_entered(_body):
 	if not Global.phased_unlocked:
 		print("Phase Ability Picked Up")
 		Global.phased_picked_up = true

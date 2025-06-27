@@ -20,7 +20,7 @@ func _on_timer_timeout():
 	
 	if countdown_time <= 0:
 		timer.stop()
-		get_tree().change_scene_to_file("res://scenes/main.tscn")
+		get_tree().change_scene_to_file("res://scenes/level_1.tscn")
 
 func _on_menu_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/menu.tscn")

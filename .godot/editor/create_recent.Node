@@ -1,8 +1,8 @@
 Node
+Button
 SubViewportContainer
 CanvasLayer
 Timer
-Button
 Label
 ColorRect
 RayCast2D

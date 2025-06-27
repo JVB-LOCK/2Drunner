@@ -1,31 +1,35 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750892426
+::res://::1750988235
 ::res://assests/::1750110659
 ::res://assests/sprites/::1750110706
 Blue.png::CompressedTexture2D::509784074505766512::1750110689::1750110706::1::::<><>::
 icon.svg::CompressedTexture2D::2972211944296538466::1747691562::1748295405::1::::<><>::
 New Piskel.png::CompressedTexture2D::6961130676298373536::1747964637::1748295405::1::::<><>::
-::res://pick_ups/::1750715967
-phaseunlocked.gd::GDScript::-1::1750715967::0::1::::<>Area2D<>::
-::res://scenes/::1750805992
-First_upgrade.tscn::PackedScene::9170666969001534484::1750805949::0::1::::<><>::res://scripts/SpawnUpgrade.gd<>uid://hi7cma5ft20k::::res://assests/sprites/Blue.png
-killzone.tscn::PackedScene::2092005764318543763::1749777869::0::1::::<><>::res://scripts/death_zone.gd
-kill_of_screen.tscn::PackedScene::8114234410534459637::1750714778::0::1::::<><>::res://scripts/kill_of_screen.gd
-level_1.tscn::PackedScene::2996411390579160798::1749779058::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png
-main.tscn::PackedScene::5238641687439740944::1750805948::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>res://scripts/main.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>res://scripts/iteams.gd<>res://scripts/camera_2d.gd<>uid://bixqptihtbudq::::res://scenes/level_1.tscn<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
-menu.tscn::PackedScene::8569543256936398524::1750805948::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>res://scripts/menu.gd
-pickup_phase.tscn::PackedScene::3219374648493025327::1750805949::0::1::::<><>::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
-player.tscn::PackedScene::7006313082339014143::1750805992::0::1::::<><>::res://scripts/player.gd
-upgrade.tscn::PackedScene::4866716437064642056::1750805949::0::1::::<><>::res://scripts/back.gd<>res://scripts/upgrade.gd
-::res://scripts/::1750805948
+::res://pick_ups/::1750988094
+phaseunlocked.gd::GDScript::-1::1750988094::0::1::::<>Area2D<>::
+::res://scenes/::1750988285
+death_screen.tscn::PackedScene::3988385478202664777::1750988094::0::1::::<><>::uid://c2ckyk8moof8q::::res://scripts/death_screen.gd
+First_upgrade.tscn::PackedScene::9170666969001534484::1750988285::0::1::::<><>::res://scripts/SpawnUpgrade.gd<>uid://hi7cma5ft20k::::res://assests/sprites/Blue.png
+killzone.tscn::PackedScene::2092005764318543763::1750988094::0::1::::<><>::uid://dulj1iic4whc::::res://scripts/death_zone.gd
+kill_of_screen.tscn::PackedScene::8114234410534459637::1750988094::0::1::::<><>::uid://duol8cbicnglk::::res://scripts/kill_of_screen.gd
+level1.tscn::PackedScene::7714206643950296246::1750988532::0::1::::<><>::uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>res://scripts/iteams.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>res://scripts/camera_2d.gd
+main.tscn::PackedScene::5238641687439740944::1750989019::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>res://scripts/iteams.gd<>res://scripts/camera_2d.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
+menu.tscn::PackedScene::8569543256936398524::1750988284::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>res://scripts/menu.gd
+pickup_phase.tscn::PackedScene::3219374648493025327::1750988285::0::1::::<><>::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
+player.tscn::PackedScene::7006313082339014143::1750988284::0::1::::<><>::res://scripts/player.gd
+levels.tscn::PackedScene::6266902865164731130::1750988992::0::1::::<><>::res://scripts/levels.gd
+upgrade.tscn::PackedScene::4866716437064642056::1750988285::0::1::::<><>::res://scripts/back.gd<>res://scripts/upgrade.gd
+::res://scripts/::1750988095
 back.gd::GDScript::-1::1750805155::0::1::::<>Button<>::
 camera_2d.gd::GDScript::-1::1749080214::0::1::::<>Camera2D<>::
+death_screen.gd::GDScript::-1::1750988094::0::1::::<>CanvasLayer<>::
 death_zone.gd::GDScript::-1::1749683499::0::1::::<>Area2D<>::
-global.gd::GDScript::-1::1750714392::0::1::::<>Node<>::
+global.gd::GDScript::-1::1750988094::0::1::::<>Node<>::
 iteams.gd::GDScript::-1::1750715967::0::1::::<>Node2D<>::
-kill_of_screen.gd::GDScript::-1::1750290254::0::1::::<>Area2D<>::
-main.gd::GDScript::-1::1750715967::0::1::::<>Node2D<>::
-menu.gd::GDScript::-1::1750198905::0::1::::<>Control<>::
-player.gd::GDScript::-1::1750805948::0::1::::<>CharacterBody2D<>::
-SpawnUpgrade.gd::GDScript::-1::1750803302::0::1::::<>Control<>::
+kill_of_screen.gd::GDScript::-1::1750988094::0::1::::<>Area2D<>::
+main.gd::GDScript::-1::1750988094::0::1::::<>Node<>::
+menu.gd::GDScript::-1::1750988095::0::1::::<>Control<>::
+player.gd::GDScript::-1::1750988095::0::1::::<>CharacterBody2D<>::
+levels.gd::GDScript::-1::1750989019::0::1::::<>Button<>::
+SpawnUpgrade.gd::GDScript::-1::1750988094::0::1::::<>Control<>::
 upgrade.gd::GDScript::-1::1750803303::0::1::::<>Control<>::
