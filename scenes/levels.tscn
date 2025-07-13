@@ -1,8 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://cvjy8eva0i78i"]
 
-[ext_resource type="Script" path="res://scripts/levels.gd" id="1_tjaif"]
+[ext_resource type="Script" uid="uid://pel10rehxoh8" path="res://scripts/levels.gd" id="1_tjaif"]
 
 [node name="DeathScreen" type="CanvasLayer"]
+script = ExtResource("1_tjaif")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchors_preset = 15
@@ -14,25 +15,20 @@ size_flags_horizontal = 4
 color = Color(3.72304e-05, 3.72304e-05, 3.72304e-05, 1)
 metadata/_edit_use_anchors_ = true
 
-[node name="Label" type="Label" parent="ColorRect"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -11.5
-offset_right = 20.0
-offset_bottom = 11.5
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="Button" type="Button" parent="ColorRect"]
+[node name="Level_1" type="Button" parent="ColorRect"]
 layout_mode = 0
 offset_right = 126.0
 offset_bottom = 68.0
 text = "Level 1"
-script = ExtResource("1_tjaif")
 
-[connection signal="pressed" from="ColorRect/Button" to="ColorRect/Button" method="_on_pressed"]
+[node name="Level_2" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 95.0
+offset_right = 128.0
+offset_bottom = 163.0
+text = "Level 2
+"
+
+[connection signal="pressed" from="ColorRect/Level_1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="ColorRect/Level_2" to="." method="_on_button_pressed"]

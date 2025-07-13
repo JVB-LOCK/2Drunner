@@ -1,26 +1,25 @@
 extends CanvasLayer
 
-@onready var countdown_label = $ColorRect/Label
-@onready var timer = $Timer
-@onready var menu_button = $ColorRect/Menu
+@onready var color_rect: ColorRect = $ColorRect
+@onready var label: Label = $ColorRect/Label
+@onready var menu_button: Button = $ColorRect/Menu
+@onready var timer: Timer = $Timer
+func _ready() -> void:
+	hide()
+func show_death_screen(respawn_time: float = 5.0) -> void:
+	label.text = "Respawning in: %.1f" % respawn_time
+	timer.start(1.0)  
 
-var countdown_time = 5  # seconds
+func hide_death_screen() -> void:
+	hide()
+	timer.stop()
 
-func _ready():
-	timer.timeout.connect(_on_timer_timeout)
-	start_countdown()
-
-func start_countdown():
-	countdown_label.text = "Respawning in: %d" % countdown_time
-	timer.start(1.0)  # 1 second intervals
-
-func _on_timer_timeout():
-	countdown_time -= 1
-	countdown_label.text = "Respawning in: %d" % countdown_time
+func _on_timer_timeout() -> void:
+	var time_left = timer.time_left
+	label.text = "Respawning in: %.1f" % time_left
 	
-	if countdown_time <= 0:
-		timer.stop()
-		get_tree().change_scene_to_file("res://scenes/level_1.tscn")
+	if time_left <= 0:
+		get_tree().reload_current_scene()
 
 func _on_menu_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/menu.tscn")
+	get_tree().change_scene_to_file("res://scenes/main_menu.tscn")

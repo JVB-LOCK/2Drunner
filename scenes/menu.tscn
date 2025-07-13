@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dudfei8lwhewi"]
 
 [ext_resource type="Texture2D" uid="uid://c6ga2m21buku7" path="res://assests/sprites/New Piskel.png" id="1_57c5l"]
-[ext_resource type="Script" path="res://scripts/menu.gd" id="1_p1r3d"]
+[ext_resource type="Script" uid="uid://b8g7v4pibplla" path="res://scripts/menu.gd" id="1_p1r3d"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -34,9 +34,11 @@ offset_right = 35.0
 offset_bottom = 50.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/separation = 18
 
 [node name="StartButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+size_flags_stretch_ratio = 14.33
 text = "Start"
 
 [node name="UpgradeButton" type="Button" parent="VBoxContainer"]

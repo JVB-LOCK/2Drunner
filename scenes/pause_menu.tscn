@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://b46xfjnuicc0u"]
+
+[ext_resource type="Script" uid="uid://bumtq78s3fhmh" path="res://scripts/quit.gd" id="1_n87rw"]
+
+[node name="Pause_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.25098)
+
+[node name="Back_Pause" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 478.0
+offset_top = 219.0
+offset_right = 638.0
+offset_bottom = 271.0
+text = "Quit"
+script = ExtResource("1_n87rw")
+
+[connection signal="pressed" from="ColorRect/Back_Pause" to="ColorRect/Back_Pause" method="_on_pressed"]

@@ -1,17 +1,14 @@
 extends Area2D
 
-signal unlockedphase
+signal unlockedphase(body)  
 
 func _ready():
-	
-	# Check if already collected and hide if true
-	if Global.phased_picked_up == true:
-		queue_free()  
-	else:
-		visible = true
-func _on_body_entered(_body):
-	if not Global.phased_unlocked:
-		print("Phase Ability Picked Up")
+	if Global.phased_picked_up:
+		queue_free()
+
+func _on_body_entered(body: Node2D):
+	if body is CharacterBody2D and not Global.phased_unlocked:  
 		Global.phased_picked_up = true
 		Global.phased_unlocked = true
-	queue_free()
+		emit_signal("unlockedphase", body) 
+		queue_free()
