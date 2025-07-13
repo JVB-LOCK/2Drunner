@@ -1,5 +1,6 @@
-[gd_scene load_steps=11 format=4 uid="uid://dh524d7u63if3"]
+[gd_scene load_steps=12 format=4 uid="uid://dh524d7u63if3"]
 
+[ext_resource type="Script" uid="uid://uutuijpvuf5q" path="res://scripts/pause.gd" id="1_15mv3"]
 [ext_resource type="PackedScene" uid="uid://c6257nqclgmx8" path="res://scenes/player.tscn" id="2_4cllb"]
 [ext_resource type="Texture2D" uid="uid://c6ga2m21buku7" path="res://assests/sprites/New Piskel.png" id="2_m7ahb"]
 [ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_of_screen.tscn" id="3_a8ytl"]
@@ -27,6 +28,7 @@ sources/0 = SubResource("TileSetAtlasSource_w4une")
 distance = -3.0
 
 [node name="Level 1" type="Node"]
+script = ExtResource("1_15mv3")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 position = Vector2(1, 0)

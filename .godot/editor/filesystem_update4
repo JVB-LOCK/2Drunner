@@ -13,3 +13,5 @@ res://scenes/pause_menu.tscn
 res://scripts/button.gd
 res://scripts/back.gd
 res://scripts/quit.gd
+res://scenes/level_1.tscn
+res://scripts/resume.gd

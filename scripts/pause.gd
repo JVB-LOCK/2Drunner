@@ -20,7 +20,6 @@ func _input(event: InputEvent) -> void:
 			pause_canvas_layer = CanvasLayer.new()
 			
 			# 2. Create menu - THIS IS WHERE THE ERROR WAS HAPPENING
-			# Ensure your scene's root node is actually a Control-derived type
 			pause_menu_instance = pause_menu_scene.instantiate() as Control  # Explicit cast
 			if !pause_menu_instance:
 				push_error("Pause menu scene root is not a Control node!")
@@ -28,6 +27,6 @@ func _input(event: InputEvent) -> void:
 				
 			pause_menu_instance.process_mode = Node.PROCESS_MODE_ALWAYS
 			pause_canvas_layer.add_child(pause_menu_instance)
-			
+		
 			# 3. Add to scene tree
 			get_tree().root.add_child(pause_canvas_layer)

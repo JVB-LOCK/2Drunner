@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b46xfjnuicc0u"]
+[gd_scene load_steps=3 format=3 uid="uid://b46xfjnuicc0u"]
 
 [ext_resource type="Script" uid="uid://bumtq78s3fhmh" path="res://scripts/quit.gd" id="1_n87rw"]
+[ext_resource type="Script" uid="uid://cg6g33pfrkpqv" path="res://scripts/resume.gd" id="2_myx47"]
 
 [node name="Pause_menu" type="Control"]
 layout_mode = 3
@@ -17,11 +18,21 @@ color = Color(1, 1, 1, 0.25098)
 
 [node name="Back_Pause" type="Button" parent="ColorRect"]
 layout_mode = 0
-offset_left = 478.0
-offset_top = 219.0
-offset_right = 638.0
-offset_bottom = 271.0
+offset_left = 492.0
+offset_top = 318.0
+offset_right = 652.0
+offset_bottom = 370.0
 text = "Quit"
 script = ExtResource("1_n87rw")
 
+[node name="Resume" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 491.0
+offset_top = 234.0
+offset_right = 651.0
+offset_bottom = 286.0
+text = "Resume"
+script = ExtResource("2_myx47")
+
 [connection signal="pressed" from="ColorRect/Back_Pause" to="ColorRect/Back_Pause" method="_on_pressed"]
+[connection signal="pressed" from="ColorRect/Resume" to="ColorRect/Resume" method="_on_pressed"]
