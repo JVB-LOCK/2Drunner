@@ -17,18 +17,29 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Level_1" type="Button" parent="ColorRect"]
 layout_mode = 0
-offset_right = 126.0
-offset_bottom = 68.0
+offset_left = 2.0
+offset_top = 82.0
+offset_right = 128.0
+offset_bottom = 150.0
 text = "Level 1"
 
 [node name="Level_2" type="Button" parent="ColorRect"]
 layout_mode = 0
 offset_left = 2.0
-offset_top = 95.0
+offset_top = 176.0
 offset_right = 128.0
-offset_bottom = 163.0
+offset_bottom = 244.0
 text = "Level 2
+"
+
+[node name="Basics" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_top = 2.0
+offset_right = 127.0
+offset_bottom = 64.0
+text = "The basics
 "
 
 [connection signal="pressed" from="ColorRect/Level_1" to="." method="_on_level_1_pressed"]
 [connection signal="pressed" from="ColorRect/Level_2" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="ColorRect/Basics" to="." method="_on_basics_pressed"]

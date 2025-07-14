@@ -1,13 +1,13 @@
+Label
+Button
 Control
 Node
 CanvasLayer
-Button
 ColorRect
 Container
 Timer
 PopupMenu
 SubViewportContainer
-Label
 RayCast2D
 GridContainer
 VBoxContainer

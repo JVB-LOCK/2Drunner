@@ -1,40 +1,43 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1752398580
+::res://::1752480737
 ::res://assests/::1751075992
 ::res://assests/sprites/::1751076076
 Blue.png::CompressedTexture2D/CompressedTexture2D::509784074505766512::1751075995::1751076076::1::::<><><>0<>0<>3474a1eade891cc43042dbf4773b3592<>res://.godot/imported/Blue.png-8a298679007b1c42ab82003a916c0018.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::2972211944296538466::1749897836::1751076076::1::::<><><>0<>0<>2c13192efe12c07046d838cf7f4ead2c<>res://.godot/imported/icon.svg-b4bc430b2eac07d3e4f5554c6ec89e56.ctex::
 New Piskel.png::CompressedTexture2D/CompressedTexture2D::6961130676298373536::1749897836::1751076076::1::::<><><>0<>0<>89d0ab51a0fb38160d5c0e508fbe97b3<>res://.godot/imported/New Piskel.png-9a02c53623a13bdfb434693069fecc42.ctex::
 ::res://pick_ups/::1752398486
-phaseunlocked.gd::GDScript::7312825219234335622::1752398486::0::1::::<>Area2D<><>0<>0<><>::
-::res://scenes/::1752399858
+phaseunlocked.gd::GDScript/GDScript::7312825219234335622::1752398486::0::1::::<>Area2D<><>0<>0<><>::
+::res://scenes/::1752480640
 death_screen.tscn::PackedScene/PackedScene::3988385478202664777::1751855009::0::1::::<><><>0<>0<><>::uid://cd7whxaymx7h2::::res://scripts/death_screen.gd
 First_upgrade.tscn::PackedScene/PackedScene::9170666969001534484::1751671819::0::1::::<><><>0<>0<><>::uid://donmsbjvg31te::::res://scripts/SpawnUpgrade.gd<>uid://hi7cma5ft20k::::res://assests/sprites/Blue.png
+how_to_play.tscn::PackedScene::5770895656092938709::1752480640::0::1::::<><><>0<>0<><>::uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd
 killzone.tscn::PackedScene/PackedScene::2092005764318543763::1751076086::0::1::::<><><>0<>0<><>::uid://dulj1iic4whc::::res://scripts/death_zone.gd
-kill_of_screen.tscn::PackedScene::8114234410534459637::1752399858::0::1::::<><><>0<>0<><>::uid://duol8cbicnglk::::res://scripts/kill_of_screen.gd
-levels.tscn::PackedScene::6266902865164731130::1752399858::0::1::::<><><>0<>0<><>::uid://pel10rehxoh8::::res://scripts/levels.gd
-level_1.tscn::PackedScene/PackedScene::7714206643950296246::1751671819::0::1::::<><><>0<>0<><>::uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd
-level_2.tscn::PackedScene::7586132866703311691::1752399870::0::1::::<><><>0<>0<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd
-main.tscn::PackedScene::5238641687439740944::1752398943::0::1::::<><><>0<>0<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
-menu.tscn::PackedScene::8569543256936398524::1752398943::0::1::::<><><>0<>0<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://b8g7v4pibplla::::res://scripts/menu.gd
-pickup_phase.tscn::PackedScene::3219374648493025327::1752398943::0::1::::<><><>0<>0<><>::uid://dcgnfsmlp83yo::::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
+kill_of_screen.tscn::PackedScene/PackedScene::8114234410534459637::1752480394::0::1::::<><><>0<>0<><>::uid://duol8cbicnglk::::res://scripts/kill_of_screen.gd
+levels.tscn::PackedScene/PackedScene::6266902865164731130::1752400637::0::1::::<><><>0<>0<><>::uid://pel10rehxoh8::::res://scripts/levels.gd
+level_1.tscn::PackedScene/PackedScene::7714206643950296246::1752480394::0::1::::<><><>0<>0<><>::uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd
+level_2.tscn::PackedScene/PackedScene::7586132866703311691::1752480405::0::1::::<><><>0<>0<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd
+main.tscn::PackedScene/PackedScene::5238641687439740944::1752398943::0::1::::<><><>0<>0<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_of_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
+menu.tscn::PackedScene/PackedScene::8569543256936398524::1752480394::0::1::::<><><>0<>0<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://b8g7v4pibplla::::res://scripts/menu.gd
+pause_menu.tscn::PackedScene/PackedScene::4487298773087136062::1752480394::0::1::::<><><>0<>0<><>::uid://bumtq78s3fhmh::::res://scripts/quit.gd<>uid://cg6g33pfrkpqv::::res://scripts/resume.gd
+pickup_phase.tscn::PackedScene/PackedScene::3219374648493025327::1752398943::0::1::::<><><>0<>0<><>::uid://dcgnfsmlp83yo::::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
 player.tscn::PackedScene/PackedScene::7006313082339014143::1751671819::0::1::::<><><>0<>0<><>::uid://byhubjfwy52ix::::res://scripts/player.gd
-pause_menu.tscn::PackedScene::4487298773087136062::1752399934::0::1::::<><><>0<>0<><>::uid://bumtq78s3fhmh::::res://scripts/button.gd
-upgrade.tscn::PackedScene::4866716437064642056::1752399858::0::1::::<><><>0<>0<><>::uid://bhudkyf714ve0::::res://scripts/back.gd<>uid://b8him1a3fjrns::::res://scripts/upgrade.gd
-::res://scripts/::1752399858
-back.gd::GDScript::2919231422932139709::1752399898::0::1::::<>Button<><>0<>0<><>::
-camera_2d.gd::GDScript/GDScript::3683496532032892109::1749897836::0::1::::<>Camera2D<><>0<>0<><>::
+upgrade.tscn::PackedScene/PackedScene::4866716437064642056::1752480394::0::1::::<><><>0<>0<><>::uid://bhudkyf714ve0::::res://scripts/back.gd<>uid://b8him1a3fjrns::::res://scripts/upgrade.gd
+::res://scripts/::1752480394
+Auto_move.gd::GDScript/GDScript::7703330041701975620::1752480184::0::1::::<>Camera2D<><>0<>0<><>::
+back.gd::GDScript/GDScript::2919231422932139709::1752399898::0::1::::<>Button<><>0<>0<><>::
+camera_2d.gd::GDScript/GDScript::3683496532032892109::1752480394::0::1::::<>Camera2D<><>0<>0<><>::
 death_screen.gd::GDScript/GDScript::5050817469972889345::1751855209::0::1::::<>CanvasLayer<><>0<>0<><>::
 death_zone.gd::GDScript/GDScript::252539423393728464::1751673652::0::1::::<>Area2D<><>0<>0<><>::
-global.gd::GDScript::1906261771426555155::1752398329::0::1::::<>Node<><>0<>0<><>::
+global.gd::GDScript/GDScript::1906261771426555155::1752398329::0::1::::<>Node<><>0<>0<><>::
 iteams.gd::GDScript/GDScript::1794649479583172358::1751673220::0::1::::<>Node2D<><>0<>0<><>::
 kill_of_screen.gd::GDScript/GDScript::8592667137474259424::1751855082::0::1::::<>Area2D<><>0<>0<><>::
 levels.gd::GDScript/GDScript::1061805822686128431::1751672615::0::1::::<>CanvasLayer<><>0<>0<><>::
 main.gd::GDScript/GDScript::5333140691868705231::1751075995::0::1::::<>Node<><>0<>0<><>::
 menu.gd::GDScript/GDScript::4717020782427700842::1751075995::0::1::::<>Control<><>0<>0<><>::
+pause.gd::GDScript/GDScript::1446254201382932144::1752401222::0::1::::<>Node<><>0<>0<><>::
 player.gd::GDScript/GDScript::4086620182400566275::1751856277::0::1::::<>CharacterBody2D<><>0<>0<><>::
 popup_menu.gd::GDScript/GDScript::472644535162037137::1751856246::0::1::::<>RefCounted<><>0<>0<><>::
-pause.gd::GDScript::1446254201382932144::1752399805::0::1::::<>Node<><>0<>0<><>::
-button.gd::GDScript::3816154017648717603::1752399898::0::1::::<>Button<><>0<>0<><>::
+quit.gd::GDScript/GDScript::3816154017648717603::1752401379::0::1::::<>Button<><>0<>0<><>::
+resume.gd::GDScript/GDScript::5258385937852361393::1752401412::0::1::::<>Button<><>0<>0<><>::
 SpawnUpgrade.gd::GDScript/GDScript::8169503588407902354::1751075995::0::1::::<>Control<><>0<>0<><>::
-upgrade.gd::GDScript::4717611700381929768::1752398823::0::1::::<>Control<><>0<>0<><>::
+upgrade.gd::GDScript/GDScript::4717611700381929768::1752401472::0::1::::<>Control<><>0<>0<><>::
