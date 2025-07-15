@@ -1,9 +1,10 @@
-res://scenes/how_to_play.tscn
-res://scenes/level_1.tscn
-res://scripts/levels.gd
-res://scenes/levels.tscn
 res://scenes/level_2.tscn
 res://scenes/pause_menu.tscn
 res://scenes/upgrade.tscn
 res://scenes/kill_of_screen.tscn
 res://scenes/menu.tscn
+res://scenes/how_to_play.tscn
+res://scenes/levels.tscn
+res://scenes/level_1.tscn
+res://pick_ups/phaseunlocked.gd
+res://scripts/pause.gd

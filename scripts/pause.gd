@@ -30,3 +30,7 @@ func _input(event: InputEvent) -> void:
 		
 			# 3. Add to scene tree
 			get_tree().root.add_child(pause_canvas_layer)
+
+
+func _on_resume_pressed() -> void:
+	pass # Replace with function body.
