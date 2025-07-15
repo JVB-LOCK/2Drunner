@@ -38,8 +38,8 @@ func _on_body_entered(body: Node2D):
 			unlock_message.visible = true
 		if resume_button:
 			resume_button.visible = true
-		#Engine.time_scale = 0
-		get_tree().paused = true
+		Engine.time_scale = 0
+		#get_tree().paused = true
 		hide()
 
 func _on_resume_pressed():
@@ -50,6 +50,6 @@ func _on_resume_pressed():
 		unlock_message.visible = false
 	if resume_button:
 		resume_button.visible = false
-	#Engine.time_scale = 1
-	get_tree().paused = false
+	Engine.time_scale = 1
+	#get_tree().paused = false
 	queue_free()
