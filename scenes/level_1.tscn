@@ -1,13 +1,13 @@
 [gd_scene load_steps=12 format=4 uid="uid://dh524d7u63if3"]
 
-[ext_resource type="Script" uid="uid://uutuijpvuf5q" path="res://scripts/pause.gd" id="1_15mv3"]
+[ext_resource type="Script" path="res://scripts/pause.gd" id="1_15mv3"]
 [ext_resource type="PackedScene" uid="uid://c6257nqclgmx8" path="res://scenes/player.tscn" id="2_4cllb"]
 [ext_resource type="Texture2D" uid="uid://c6ga2m21buku7" path="res://assests/sprites/New Piskel.png" id="2_m7ahb"]
-[ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_of_screen.tscn" id="3_a8ytl"]
-[ext_resource type="Script" uid="uid://0tlu5vibmije" path="res://scripts/iteams.gd" id="4_521tx"]
+[ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_off_screen.tscn" id="3_a8ytl"]
+[ext_resource type="Script" path="res://scripts/iteams.gd" id="4_521tx"]
 [ext_resource type="PackedScene" uid="uid://bl4qvonu4s85p" path="res://scenes/pickup_phase.tscn" id="5_7h123"]
 [ext_resource type="PackedScene" uid="uid://42na84ktkflj" path="res://scenes/killzone.tscn" id="6_tars4"]
-[ext_resource type="Script" uid="uid://bsqkwdcqhr1wb" path="res://scripts/camera_2d.gd" id="7_ipxh5"]
+[ext_resource type="Script" path="res://scripts/camera_2d.gd" id="7_ipxh5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w4une"]
 texture = ExtResource("2_m7ahb")
@@ -58,6 +58,7 @@ text = "Resume"
 
 [node name="Unlock_message" type="Label" parent="Resume_button"]
 unique_name_in_owner = true
+layout_mode = 0
 offset_left = 19.0
 offset_top = -82.0
 offset_right = 148.0

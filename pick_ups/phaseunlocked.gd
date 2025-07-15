@@ -25,11 +25,6 @@ func _ready():
 	else:
 		printerr("Unlock label not found! Check path.")
 	
-	# Connect button
-	if resume_button:
-		if resume_button.pressed.is_connected(_on_resume_pressed):
-			resume_button.pressed.disconnect(_on_resume_pressed)
-		resume_button.pressed.connect(_on_resume_pressed)
 
 func _on_body_entered(body: Node2D):
 	if body is CharacterBody2D and not Global.phased_unlocked:  
@@ -43,16 +38,18 @@ func _on_body_entered(body: Node2D):
 			unlock_message.visible = true
 		if resume_button:
 			resume_button.visible = true
-		
+		#Engine.time_scale = 0
 		get_tree().paused = true
 		hide()
 
 func _on_resume_pressed():
+	get_tree().change_scene_to_file("res://scenes/menu.tscn")
+	
 	# Safely hide UI
 	if unlock_message:
 		unlock_message.visible = false
 	if resume_button:
 		resume_button.visible = false
-	
+	#Engine.time_scale = 1
 	get_tree().paused = false
 	queue_free()

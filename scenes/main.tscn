@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://42na84ktkflj" path="res://scenes/killzone.tscn" id="1_f2fi5"]
 [ext_resource type="PackedScene" uid="uid://c6257nqclgmx8" path="res://scenes/player.tscn" id="1_rdqh1"]
-[ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_of_screen.tscn" id="2_sx4oc"]
-[ext_resource type="Script" uid="uid://0tlu5vibmije" path="res://scripts/iteams.gd" id="4_7kgx2"]
-[ext_resource type="Script" uid="uid://bsqkwdcqhr1wb" path="res://scripts/camera_2d.gd" id="4_amn6d"]
+[ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_off_screen.tscn" id="2_sx4oc"]
+[ext_resource type="Script" path="res://scripts/iteams.gd" id="4_7kgx2"]
+[ext_resource type="Script" path="res://scripts/camera_2d.gd" id="4_amn6d"]
 [ext_resource type="PackedScene" uid="uid://bl4qvonu4s85p" path="res://scenes/pickup_phase.tscn" id="7_y4ggp"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_mwdjv"]
