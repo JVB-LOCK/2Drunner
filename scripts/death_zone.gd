@@ -1,6 +1,6 @@
 extends Area2D
 
-signal unlockedphase(body)
+#signal unlockedphase(body)
 
 # UI References 
 @onready var unlock_message: Label = %Unlock_message
