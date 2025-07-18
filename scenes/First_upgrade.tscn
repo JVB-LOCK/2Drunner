@@ -1,7 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://d3wlssfyq34aa"]
 
-[ext_resource type="Script" path="res://scripts/SpawnUpgrade.gd" id="1_ats6j"]
-[ext_resource type="Script" path="res://scripts/phase_description.gd" id="2_thuke"]
+[ext_resource type="Script" uid="uid://donmsbjvg31te" path="res://scripts/SpawnUpgrade.gd" id="1_ats6j"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5ik5j"]
 content_margin_left = 3.0
@@ -13,6 +12,9 @@ corner_radius_top_left = 15
 corner_radius_top_right = 15
 corner_radius_bottom_right = 15
 corner_radius_bottom_left = 15
+
+[sub_resource type="LabelSettings" id="LabelSettings_4qw7i"]
+font_size = 20
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wppft"]
 bg_color = Color(0.864075, 0.176264, 0.26471, 1)
@@ -27,7 +29,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = 2.0
 offset_right = -977.0
-offset_bottom = -407.0
+offset_bottom = -460.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ats6j")
@@ -40,7 +42,10 @@ metadata/_edit_group_ = true
 
 [node name="Description" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-script = ExtResource("2_thuke")
+text = "Lets you phase through walls when dashing.
+"
+horizontal_alignment = 1
+autowrap_mode = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
@@ -52,6 +57,7 @@ metadata/_edit_group_ = true
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_5ik5j")
 text = "Phase"
+label_settings = SubResource("LabelSettings_4qw7i")
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
@@ -64,3 +70,4 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_wppft")
 text = "Buy"
 
 [connection signal="pressed" from="VBoxContainer/VBoxContainer2/Buy" to="." method="_on_buy_pressed"]
+[connection signal="pressed" from="VBoxContainer/VBoxContainer2/Buy" to="VBoxContainer/VBoxContainer2/Buy" method="_on_pressed"]

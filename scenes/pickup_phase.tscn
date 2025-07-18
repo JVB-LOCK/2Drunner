@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bl4qvonu4s85p"]
 
-[ext_resource type="Script" path="res://pick_ups/phaseunlocked.gd" id="1_m3rvt"]
+[ext_resource type="Script" uid="uid://dcgnfsmlp83yo" path="res://pick_ups/phaseunlocked.gd" id="1_m3rvt"]
 [ext_resource type="Texture2D" uid="uid://bil05qleo8mec" path="res://assests/sprites/icon.svg" id="2_imx8s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hm7mb"]

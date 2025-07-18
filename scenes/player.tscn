@@ -1,24 +1,38 @@
-[gd_scene load_steps=4 format=3 uid="uid://c6257nqclgmx8"]
+[gd_scene load_steps=6 format=3 uid="uid://c6257nqclgmx8"]
 
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_m7drd"]
+[ext_resource type="Script" uid="uid://byhubjfwy52ix" path="res://scripts/player.gd" id="1_m7drd"]
+[ext_resource type="Texture2D" uid="uid://cmfattu46s4hm" path="res://assests/FreeKnight_v1/Comparison2x.png" id="2_g2els"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yxiwh"]
-load_path = "res://.godot/imported/Blue.png-8a298679007b1c42ab82003a916c0018.ctex"
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
+atlas = ExtResource("2_g2els")
+region = Rect2(120, 80, 120, 80)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dqkch"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhqgy")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wjn1f"]
-size = Vector2(91, 81)
+size = Vector2(107, 180)
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(374, 388)
 script = ExtResource("1_m7drd")
 
-[node name="AnimatedSprite2D" type="Sprite2D" parent="."]
-position = Vector2(80, -90)
-scale = Vector2(2.5, 2.34375)
-texture = SubResource("CompressedTexture2D_yxiwh")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(80.5, -89.375)
+scale = Vector2(2.425, 2.35938)
+sprite_frames = SubResource("SpriteFrames_dqkch")
+animation = &"new_animation"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(78.5, -89.5)
+position = Vector2(70.5, -86)
 shape = SubResource("RectangleShape2D_wjn1f")
 
 [node name="Phaseout" type="Timer" parent="."]
