@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://d3wlssfyq34aa"]
 
 [ext_resource type="Script" path="res://scripts/SpawnUpgrade.gd" id="1_ats6j"]
-[ext_resource type="Texture2D" uid="uid://hi7cma5ft20k" path="res://assests/sprites/Blue.png" id="2_rnylt"]
+[ext_resource type="Script" path="res://scripts/phase_description.gd" id="2_thuke"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5ik5j"]
 content_margin_left = 3.0
@@ -38,10 +38,9 @@ theme_override_constants/separation = 15
 metadata/_edit_use_anchors_ = true
 metadata/_edit_group_ = true
 
-[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+[node name="Description" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-texture = ExtResource("2_rnylt")
-expand_mode = 4
+script = ExtResource("2_thuke")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2

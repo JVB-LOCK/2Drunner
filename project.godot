@@ -20,6 +20,10 @@ config/icon="res://assests/sprites/icon.svg"
 Global="*res://scripts/global.gd"
 DeathScreen="res://scenes/death_screen.tscn"
 
+[debug]
+
+gdscript/warnings/unused_signal=0
+
 [display]
 
 window/stretch/mode="canvas_items"

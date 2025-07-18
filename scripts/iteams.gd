@@ -11,8 +11,8 @@ func _ready() -> void:
 	if resume_button:
 		resume_button.visible = false
 	
-	# Wait until next frame to ensure all nodes are loaded
-	call_deferred("_connect_pickup_signal")
+
+	#call_deferred("_connect_pickup_signal")
 
 func phase(_body):
 	print("Unlocked Phased")

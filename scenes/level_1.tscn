@@ -52,13 +52,13 @@ tile_set = SubResource("TileSet_ru4tf")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Resume_button" type="Button" parent="CanvasLayer"]
+[node name="Main_Menu" type="Button" parent="CanvasLayer"]
 unique_name_in_owner = true
 offset_left = 1584.0
 offset_top = 325.0
 offset_right = 1728.0
 offset_bottom = 390.0
-text = "Resume"
+text = "Main Menu"
 
 [node name="Unlock_message" type="Label" parent="CanvasLayer"]
 unique_name_in_owner = true
@@ -74,13 +74,13 @@ label_settings = SubResource("LabelSettings_6g50d")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Main_Menu" type="Button" parent="CanvasLayer"]
+[node name="Resume_button" type="Button" parent="CanvasLayer"]
 unique_name_in_owner = true
 offset_left = 1584.0
 offset_top = 233.0
 offset_right = 1728.0
 offset_bottom = 298.0
-text = "Main Menu"
+text = "Resume"
 
 [node name="Items" type="Node2D" parent="."]
 unique_name_in_owner = true
@@ -103,5 +103,5 @@ zoom = Vector2(1.25, 1.25)
 limit_bottom = 700
 script = ExtResource("7_ipxh5")
 
-[connection signal="pressed" from="CanvasLayer/Resume_button" to="Items/Pickup_Phase" method="_on_resume_pressed"]
 [connection signal="pressed" from="CanvasLayer/Main_Menu" to="Items/Pickup_Phase" method="_on_main_menu_pressed"]
+[connection signal="pressed" from="CanvasLayer/Resume_button" to="Items/Pickup_Phase" method="_on_resume_pressed"]

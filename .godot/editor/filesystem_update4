@@ -12,7 +12,9 @@ res://scenes/pickup_phase.tscn
 res://scenes/player.tscn
 res://scenes/upgrade.tscn
 res://scenes/how_to_play.tscn
+res://scripts/item_base.gd
+res://scripts/phase_description.gd
 res://scripts/death_zone.gd
-res://pick_ups/phaseunlocked.gd
 res://scripts/iteams.gd
-res://scripts/pause.gd
+res://pick_ups/phaseunlocked.gd
+res://Tres/Phase_Description.tres

@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ItemBase" load_steps=2 format=3 uid="uid://620m14tv7u6e"]
+
+[ext_resource type="Script" path="res://scripts/item_base.gd" id="1_1lv3k"]
+
+[resource]
+script = ExtResource("1_1lv3k")
+description = "AWFwafnawk fnwi ojwaofiwjafowjaoifujwaoifjwaio jfsa f"
