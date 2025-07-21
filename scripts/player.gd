@@ -22,6 +22,7 @@ var respawn_position: Vector2
 @onready var collision_shape: CollisionShape2D = $CollisionShape2D
 @onready var dash_timer: Timer = Timer.new()
 @onready var dash_cooldown_timer: Timer = Timer.new()
+@onready var animate = $AnimatedSprite2D
 
 func _ready() -> void:
 	# Timer setups
@@ -49,7 +50,8 @@ func _physics_process(delta: float) -> void:
 		elif jump_count < max_jumps:
 			velocity.y = JUMP_VELOCITY * 0.9
 			jump_count += 1
-	
+			animate.play("Jump")
+			
 	if is_on_floor():
 		jump_count = 0
 	
@@ -57,11 +59,13 @@ func _physics_process(delta: float) -> void:
 	var direction := Input.get_axis("left", "right")
 	if not is_dashing:
 		velocity.x = direction * SPEED if direction else move_toward(velocity.x, 0, SPEED)
-	
+		animate.play("Walking")
 	# Dashing
 	if Input.is_action_just_pressed("dash") and can_dash:
 		_start_dash(direction)
-	
+	if direction == 0:
+		animate.play("Idel")
+		
 	# Phase ability
 	if Input.is_action_just_pressed("phase") and not is_phased and Global.phase_bought and not phase_timeout:
 		enable_phase()

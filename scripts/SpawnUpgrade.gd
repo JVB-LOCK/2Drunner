@@ -15,10 +15,7 @@ func _ready():
 	load_questions()
 	quiz_panel.visible = false
 	wrong_answer_label.visible = false
-	
-	# Connect buttons programmatically if not done in editor
-	answer_button_1.pressed.connect(_on_answer_1_pressed)
-	answer_button_2.pressed.connect(_on_answer_2_pressed)
+
 
 func load_questions():
 	if not FileAccess.file_exists("res://data/questions.json"):
@@ -59,12 +56,12 @@ func show_question(index):
 		return
 	
 	var question = questions[index]
-	question_label.text = question.get("Qestuions", "Missing question text")
-	answer_button_1.text = str(question.get("RIght", "?"))
+	question_label.text = question.get("Questions", "Missing question text")
+	answer_button_1.text = str(question.get("Right", "?"))
 	answer_button_2.text = str(question.get("Wrong", "?"))
 
 func check_answer(selected_answer):
-	var correct_answer = str(questions[current_question].get("RIght", ""))
+	var correct_answer = str(questions[current_question].get("Right", ""))
 	
 	if selected_answer == correct_answer:
 		current_question += 1
