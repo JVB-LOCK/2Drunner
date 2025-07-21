@@ -1,6 +1,7 @@
-AnimatedSprite2D
 Label
 Button
+Panel
+AnimatedSprite2D
 CanvasLayer
 Control
 Node
@@ -11,5 +12,3 @@ PopupMenu
 SubViewportContainer
 RayCast2D
 GridContainer
-VBoxContainer
-TextureRect

@@ -19,6 +19,8 @@ config/icon="res://assests/sprites/icon.svg"
 
 Global="*res://scripts/global.gd"
 DeathScreen="res://scenes/death_screen.tscn"
+DataLoader="*res://scripts/data_loader.gd"
+QuizData="*res://scripts/quiz_data.gd"
 
 [debug]
 
