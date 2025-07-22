@@ -1,11 +1,10 @@
-res://scenes/First_upgrade.tscn
-res://scripts/item_base.gd
-res://scripts/SpawnUpgrade.gd
-res://scenes/level_1.tscn
 res://scenes/death_screen.tscn
+res://scenes/First_upgrade.tscn
+res://scenes/how_to_play.tscn
 res://scenes/killzone.tscn
 res://scenes/kill_off_screen.tscn
 res://scenes/levels.tscn
+res://scenes/level_1.tscn
 res://scenes/level_2.tscn
 res://scenes/main.tscn
 res://scenes/menu.tscn
@@ -13,5 +12,6 @@ res://scenes/pause_menu.tscn
 res://scenes/pickup_phase.tscn
 res://scenes/player.tscn
 res://scenes/upgrade.tscn
-res://scenes/how_to_play.tscn
-res://scripts/player.gd
+res://Tres/Phase_Description.tres
+res://scripts/item_base.gd
+res://data/questions.json
