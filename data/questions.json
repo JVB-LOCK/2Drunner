@@ -1,17 +1,17 @@
 [
   {
-	"Questions": "2+2",
-	"Right": 4,
-	"Wrong": 5
+	"Questions": "(3x-2) where x=7",
+	"Right": 19,
+	"Wrong": 20
   },
   {
-	"Questions": "6-7",
-	"Right": 1,
-	"Wrong": 5
+	"Questions": "(2000-1700)/5",
+	"Right": 705,
+	"Wrong": 600
   },
   {
-	"Questions": "5+5",
-	"Right": 10,
-	"Wrong": 21
+	"Questions": "3 power of 0",
+	"Right": 0,
+	"Wrong": 1
   }
 ]

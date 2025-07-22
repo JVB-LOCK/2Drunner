@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=4 uid="uid://dgc1q87xr7b0f"]
 
 [ext_resource type="Texture2D" uid="uid://c6ga2m21buku7" path="res://assests/sprites/New Piskel.png" id="1_wo48x"]
-[ext_resource type="Script" uid="uid://uutuijpvuf5q" path="res://scripts/pause.gd" id="1_y0kc7"]
+[ext_resource type="Script" path="res://scripts/pause.gd" id="1_y0kc7"]
 [ext_resource type="PackedScene" uid="uid://c6257nqclgmx8" path="res://scenes/player.tscn" id="2_y0kc7"]
 [ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_off_screen.tscn" id="3_ne2mo"]
 [ext_resource type="PackedScene" uid="uid://42na84ktkflj" path="res://scenes/killzone.tscn" id="5_que50"]
-[ext_resource type="Script" uid="uid://bsqkwdcqhr1wb" path="res://scripts/camera_2d.gd" id="6_hey2k"]
+[ext_resource type="Script" path="res://scripts/camera_2d.gd" id="6_hey2k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w4une"]
 texture = ExtResource("1_wo48x")

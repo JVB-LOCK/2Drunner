@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://c6257nqclgmx8"]
 
-[ext_resource type="Script" uid="uid://byhubjfwy52ix" path="res://scripts/player.gd" id="1_m7drd"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_m7drd"]
 [ext_resource type="Texture2D" uid="uid://bnqeilajedtla" path="res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Idle.png" id="2_ds3ma"]
 [ext_resource type="Texture2D" uid="uid://t5g30p8jf321" path="res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Jump.png" id="3_1xrwe"]
 [ext_resource type="Texture2D" uid="uid://ckm6ihh7124mt" path="res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Run.png" id="3_uhopk"]
@@ -184,26 +184,24 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_wjn1f"]
-size = Vector2(53, 93)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qhaxv"]
+radius = 21.5
+height = 84.0
 
 [node name="Player" type="CharacterBody2D"]
 texture_filter = 1
 position = Vector2(374, 388)
 script = ExtResource("1_m7drd")
-metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(80.5, -89.375)
-scale = Vector2(2.425, 2.35938)
+position = Vector2(80.5, -88.8751)
+scale = Vector2(2.425, 2.37188)
 sprite_frames = SubResource("SpriteFrames_dqkch")
-animation = &"Jump"
-frame = 2
-frame_progress = 1.0
+animation = &"Idel"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(68.5, -40.5)
-shape = SubResource("RectangleShape2D_wjn1f")
+position = Vector2(67, -37)
+shape = SubResource("CapsuleShape2D_qhaxv")
 
 [node name="Phaseout" type="Timer" parent="."]
 wait_time = 0.4

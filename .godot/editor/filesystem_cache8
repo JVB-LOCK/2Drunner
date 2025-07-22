@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1753132204
+::res://::1753221841
 ::res://assests/::1753132076
-::res://assests/FreeKnight_v1/::1753132076
+::res://assests/FreeKnight_v1/::1753132217
 Comparison2x.png::CompressedTexture2D::5625464340096618638::1753132076::1753132217::1::::<><>::
 ::res://assests/FreeKnight_v1/Colour1/::1753132069
 ::res://assests/FreeKnight_v1/Colour1/NoOutline/::1753132068
 ::res://assests/FreeKnight_v1/Colour1/NoOutline/120x80_gifs/::1753132069
-::res://assests/FreeKnight_v1/Colour1/NoOutline/120x80_PNGSheets/::1753132068
+::res://assests/FreeKnight_v1/Colour1/NoOutline/120x80_PNGSheets/::1753132221
 _Attack2.png::CompressedTexture2D::4372899223185104777::1753132067::1753132220::1::::<><>::
 _Attack2NoMovement.png::CompressedTexture2D::3154645084188017361::1753132067::1753132220::1::::<><>::
 _Attack.png::CompressedTexture2D::2935919399695872128::1753132067::1753132220::1::::<><>::
@@ -39,7 +39,7 @@ _WallHang.png::CompressedTexture2D::8667424459788260805::1753132068::1753132220:
 _WallSlide.png::CompressedTexture2D::7533632522976385010::1753132068::1753132220::1::::<><>::
 ::res://assests/FreeKnight_v1/Colour1/Outline/::1753132071
 ::res://assests/FreeKnight_v1/Colour1/Outline/120x80_gifs/::1753132071
-::res://assests/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/::1753132071
+::res://assests/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/::1753132223
 _Attack2.png::CompressedTexture2D::8503437954893188244::1753132069::1753132220::1::::<><>::
 _Attack2NoMovement.png::CompressedTexture2D::8916471267184586518::1753132069::1753132220::1::::<><>::
 _Attack.png::CompressedTexture2D::6042197107371223528::1753132069::1753132220::1::::<><>::
@@ -73,7 +73,7 @@ _WallSlide.png::CompressedTexture2D::7116193073733309031::1753132071::1753132223
 ::res://assests/FreeKnight_v1/Colour2/::1753132073
 ::res://assests/FreeKnight_v1/Colour2/NoOutline/::1753132073
 ::res://assests/FreeKnight_v1/Colour2/NoOutline/120x80_gifs/::1753132073
-::res://assests/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/::1753132073
+::res://assests/FreeKnight_v1/Colour2/NoOutline/120x80_PNGSheets/::1753132223
 _Attack2.png::CompressedTexture2D::270920657433786927::1753132071::1753132223::1::::<><>::
 _Attack2NoMovement.png::CompressedTexture2D::8892907513908858099::1753132071::1753132221::1::::<><>::
 _Attack.png::CompressedTexture2D::8751895089131354895::1753132071::1753132221::1::::<><>::
@@ -106,7 +106,7 @@ _WallHang.png::CompressedTexture2D::7875947644661182346::1753132073::1753132217:
 _WallSlide.png::CompressedTexture2D::3356154346277727624::1753132073::1753132217::1::::<><>::
 ::res://assests/FreeKnight_v1/Colour2/Outline/::1753132075
 ::res://assests/FreeKnight_v1/Colour2/Outline/120x80_gifs/::1753132076
-::res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/::1753132075
+::res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/::1753132218
 _Attack2.png::CompressedTexture2D::6950021743742242787::1753132073::1753132217::1::::<><>::
 _Attack2NoMovement.png::CompressedTexture2D::2180175361903049709::1753132074::1753132217::1::::<><>::
 _Attack.png::CompressedTexture2D::4916288347862042149::1753132073::1753132217::1::::<><>::
@@ -139,64 +139,64 @@ _WallHang.png::CompressedTexture2D::4186343237488276731::1753132075::1753132217:
 _WallSlide.png::CompressedTexture2D::9014392854826597068::1753132075::1753132217::1::::<><>::
 ::res://assests/Legacy-Fantasy - High Forest 2.0/::1753132076
 ::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/::1753132078
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/::1753132076
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/::1753132219
 Buildings.png::CompressedTexture2D::340490519457261045::1753132076::1753132218::1::::<><>::
 Hive.png::CompressedTexture2D::4378791497963052295::1753132076::1753132218::1::::<><>::
 Interior-01.png::CompressedTexture2D::4797318908134620581::1753132076::1753132219::1::::<><>::
 Props-Rocks.png::CompressedTexture2D::3571352407319802446::1753132076::1753132219::1::::<><>::
 Tiles.png::CompressedTexture2D::2226172603575910910::1753132076::1753132219::1::::<><>::
 Tree-Assets.png::CompressedTexture2D::2261703557328110703::1753132076::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/::1753132076
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/::1753132219
 Background.png::CompressedTexture2D::2461095745113102368::1753132076::1753132219::1::::<><>::
 ::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/::1753132077
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1753132076
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1753132219
 Attack-01-Sheet.png::CompressedTexture2D::2493472040603019031::1753132076::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1753132076
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1753132219
 Dead-Sheet.png::CompressedTexture2D::145340654733367750::1753132076::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1753132219
 Idle-Sheet.png::CompressedTexture2D::840656937718481653::1753132076::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1753132219
 Jump-All-Sheet.png::CompressedTexture2D::3360391765126910598::1753132077::1753132219::1::::<><>::
 ::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump/::1753132077
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1753132219
 Jump-End-Sheet.png::CompressedTexture2D::7957510216162308621::1753132077::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1753132219
 Jump-Start-Sheet.png::CompressedTexture2D::3234596971325406396::1753132077::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Character/Run/::1753132219
 Run-Sheet.png::CompressedTexture2D::4632445604042585030::1753132077::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/HUD/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/HUD/::1753132219
 Base-01.png::CompressedTexture2D::8989379077982372723::1753132077::1753132219::1::::<><>::
 ::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/::1753132078
 ::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/::1753132077
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1753132219
 Hit-Sheet-Black.png::CompressedTexture2D::4444157883272276245::1753132077::1753132219::1::::<><>::
 Hit-Sheet-White.png::CompressedTexture2D::2683019132974061804::1753132077::1753132219::1::::<><>::
 Hit-Sheet.png::CompressedTexture2D::4629674972923357068::1753132077::1753132219::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1753132219
 Idle-Sheet-export-Back.png::CompressedTexture2D::6593997417931719967::1753132077::1753132219::1::::<><>::
 Idle-Sheet-White.png::CompressedTexture2D::8638225988746337506::1753132077::1753132219::1::::<><>::
 Idle-Sheet.png::CompressedTexture2D::1069511197457881619::1753132077::1753132218::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1753132077
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1753132218
 Run-Sheet-Black.png::CompressedTexture2D::6935558250913449596::1753132077::1753132218::1::::<><>::
 Run-Sheet-White.png::CompressedTexture2D::424716253157000807::1753132077::1753132218::1::::<><>::
 Run-Sheet.png::CompressedTexture2D::1714497490910402757::1753132077::1753132218::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1753132078
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1753132218
 Walk-Base-Sheet-White.png::CompressedTexture2D::3042549917927223623::1753132077::1753132218::1::::<><>::
 Walk-Base-Sheet.png::CompressedTexture2D::30891378917756839::1753132077::1753132218::1::::<><>::
 Walk-Base-SheetBlack.png::CompressedTexture2D::6020660597980527613::1753132078::1753132218::1::::<><>::
 ::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/::1753132078
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1753132078
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1753132218
 Attack-Sheet.png::CompressedTexture2D::2230413320091761323::1753132078::1753132218::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1753132078
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1753132218
 Fly-Sheet.png::CompressedTexture2D::7056132574026983258::1753132078::1753132218::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1753132078
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1753132218
 Hit-Sheet.png::CompressedTexture2D::5264097600983810328::1753132078::1753132218::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1753132078
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1753132218
 all.png::CompressedTexture2D::5025158091900592858::1753132078::1753132218::1::::<><>::
 Dead-Sheet.png::CompressedTexture2D::8588825821537513302::1753132078::1753132218::1::::<><>::
 Hide-Sheet.png::CompressedTexture2D::3966770669477508112::1753132078::1753132218::1::::<><>::
 walk-Sheet.png::CompressedTexture2D::1186557519182624697::1753132078::1753132218::1::::<><>::
-::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/::1753132079
+::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/::1753132219
 Background.png::CompressedTexture2D::7666165496917515671::1753132078::1753132218::1::::<><>::
 Dark-Tree.png::CompressedTexture2D::3124758488178005782::1753132078::1753132218::1::::<><>::
 Golden-Tree.png::CompressedTexture2D::1518618959820431399::1753132078::1753132218::1::::<><>::
@@ -207,26 +207,26 @@ Yellow-Tree.png::CompressedTexture2D::8211107338809479924::1753132079::175313221
 Blue.png::CompressedTexture2D::509784074505766512::1752617119::1752617151::1::::<><>::
 icon.svg::CompressedTexture2D::2972211944296538466::1752617120::1752617151::1::::<><>::
 New Piskel.png::CompressedTexture2D::6961130676298373536::1752617120::1752617151::1::::<><>::
-::res://data/::1753132079
-questions.json::JSON::-1::1753132079::0::1::::<><>::
+::res://data/::1753221773
+questions.json::JSON::-1::1753221773::0::1::::<><>::
 ::res://pick_ups/::1752804635
 phaseunlocked.gd::GDScript::-1::1752804635::0::1::::<>Area2D<>::
-::res://scenes/::1753132079
-death_screen.tscn::PackedScene::3988385478202664777::1753132079::0::1::::<><>::uid://cd7whxaymx7h2::::res://scripts/death_screen.gd
-First_upgrade.tscn::PackedScene::9170666969001534484::1753132079::0::1::::<><>::uid://donmsbjvg31te::::res://scripts/SpawnUpgrade.gd
-how_to_play.tscn::PackedScene::5770895656092938709::1753132079::0::1::::<><>::uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://42na84ktkflj::::res://scenes/killzone.tscn
-killzone.tscn::PackedScene::2092005764318543763::1753132079::0::1::::<><>::uid://dulj1iic4whc::::res://scripts/death_zone.gd
-kill_off_screen.tscn::PackedScene::8114234410534459637::1753132079::0::1::::<><>::uid://duol8cbicnglk::::res://scripts/kill_of_screen.gd
-levels.tscn::PackedScene::6266902865164731130::1753132079::0::1::::<><>::uid://pel10rehxoh8::::res://scripts/levels.gd
-level_1.tscn::PackedScene::7714206643950296246::1753132079::0::1::::<><>::uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn<>uid://bbcf5f1pwg76s::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://dhhsvjkiwrs4n::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Background.png<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd<>uid://bq48wgewdixys::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png<>uid://e363gpko30y8::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png<>uid://b3neb580qy6op::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Hive.png<>uid://cal4e2ukfispp::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png<>uid://6ym0ct85508i::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>uid://7ht6r1yfbctj::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png
-level_2.tscn::PackedScene::7586132866703311691::1753132079::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd
-main.tscn::PackedScene::5238641687439740944::1753132079::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
-menu.tscn::PackedScene::8569543256936398524::1753132079::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://b8g7v4pibplla::::res://scripts/menu.gd
-pause_menu.tscn::PackedScene::4487298773087136062::1753132079::0::1::::<><>::uid://bumtq78s3fhmh::::res://scripts/quit.gd<>uid://cg6g33pfrkpqv::::res://scripts/resume.gd
-pickup_phase.tscn::PackedScene::3219374648493025327::1753132079::0::1::::<><>::uid://dcgnfsmlp83yo::::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
-player.tscn::PackedScene::7006313082339014143::1753132079::0::1::::<><>::uid://byhubjfwy52ix::::res://scripts/player.gd<>uid://cmfattu46s4hm::::res://assests/FreeKnight_v1/Comparison2x.png
-upgrade.tscn::PackedScene::4866716437064642056::1753132079::0::1::::<><>::uid://bhudkyf714ve0::::res://scripts/back.gd<>uid://b8him1a3fjrns::::res://scripts/upgrade.gd
-::res://scripts/::1753132079
+::res://scenes/::1753221774
+death_screen.tscn::PackedScene::3988385478202664777::1753221773::0::1::::<><>::uid://cd7whxaymx7h2::::res://scripts/death_screen.gd
+First_upgrade.tscn::PackedScene::9170666969001534484::1753221773::0::1::::<><>::uid://donmsbjvg31te::::res://scripts/SpawnUpgrade.gd
+how_to_play.tscn::PackedScene::5770895656092938709::1753221773::0::1::::<><>::uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://42na84ktkflj::::res://scenes/killzone.tscn
+killzone.tscn::PackedScene::2092005764318543763::1753221773::0::1::::<><>::uid://dulj1iic4whc::::res://scripts/death_zone.gd
+kill_off_screen.tscn::PackedScene::8114234410534459637::1753221773::0::1::::<><>::uid://duol8cbicnglk::::res://scripts/kill_of_screen.gd
+levels.tscn::PackedScene::6266902865164731130::1753221773::0::1::::<><>::uid://pel10rehxoh8::::res://scripts/levels.gd
+level_1.tscn::PackedScene::7714206643950296246::1753221773::0::1::::<><>::uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn<>uid://bbcf5f1pwg76s::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://dhhsvjkiwrs4n::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Trees/Background.png<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd<>uid://bq48wgewdixys::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png<>uid://e363gpko30y8::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png<>uid://b3neb580qy6op::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Hive.png<>uid://cal4e2ukfispp::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png<>uid://6ym0ct85508i::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>uid://7ht6r1yfbctj::::res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png
+level_2.tscn::PackedScene::7586132866703311691::1753221773::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://uutuijpvuf5q::::res://scripts/pause.gd<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd
+main.tscn::PackedScene::5238641687439740944::1753221773::0::1::::<><>::uid://42na84ktkflj::::res://scenes/killzone.tscn<>uid://c6257nqclgmx8::::res://scenes/player.tscn<>uid://dnuuixb3ofoo0::::res://scenes/kill_off_screen.tscn<>uid://0tlu5vibmije::::res://scripts/iteams.gd<>uid://bsqkwdcqhr1wb::::res://scripts/camera_2d.gd<>uid://bl4qvonu4s85p::::res://scenes/pickup_phase.tscn
+menu.tscn::PackedScene::8569543256936398524::1753221773::0::1::::<><>::uid://c6ga2m21buku7::::res://assests/sprites/New Piskel.png<>uid://b8g7v4pibplla::::res://scripts/menu.gd
+pause_menu.tscn::PackedScene::4487298773087136062::1753221773::0::1::::<><>::uid://bumtq78s3fhmh::::res://scripts/quit.gd<>uid://cg6g33pfrkpqv::::res://scripts/resume.gd
+pickup_phase.tscn::PackedScene::3219374648493025327::1753221774::0::1::::<><>::uid://dcgnfsmlp83yo::::res://pick_ups/phaseunlocked.gd<>uid://bil05qleo8mec::::res://assests/sprites/icon.svg
+player.tscn::PackedScene::7006313082339014143::1753221774::0::1::::<><>::uid://byhubjfwy52ix::::res://scripts/player.gd<>uid://bnqeilajedtla::::res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Idle.png<>uid://t5g30p8jf321::::res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Jump.png<>uid://ckm6ihh7124mt::::res://assests/FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Run.png
+upgrade.tscn::PackedScene::4866716437064642056::1753221774::0::1::::<><>::uid://bhudkyf714ve0::::res://scripts/back.gd<>uid://b8him1a3fjrns::::res://scripts/upgrade.gd
+::res://scripts/::1753135149
 Auto_move.gd::GDScript::-1::1752617120::0::1::::<>Camera2D<>::
 back.gd::GDScript::-1::1752617120::0::1::::<>Button<>::
 buy.gd::GDScript::-1::1753132079::0::1::::<>Button<>::
@@ -236,20 +236,20 @@ death_screen.gd::GDScript::-1::1752617120::0::1::::<>CanvasLayer<>::
 death_zone.gd::GDScript::-1::1752804447::0::1::::<>Area2D<>::
 global.gd::GDScript::-1::1752620356::0::1::::<>Node<>::
 iteams.gd::GDScript::-1::1752804490::0::1::::<>Node2D<>::
-item_base.gd::GDScript::-1::1752804851::0::1::::ItemBase<>Resource<>::
+item_base.gd::GDScript::-1::1753133070::0::1::::ItemBase<>Resource<>::
 kill_of_screen.gd::GDScript::-1::1752617121::0::1::::<>Area2D<>::
 levels.gd::GDScript::-1::1752617624::0::1::::<>CanvasLayer<>::
 main.gd::GDScript::-1::1752617121::0::1::::<>Node<>::
 menu.gd::GDScript::-1::1752617228::0::1::::<>Control<>::
 pause.gd::GDScript::-1::1752801852::0::1::::<>Node<>::
 phase_description.gd::GDScript::-1::1752804368::0::1::::<>Label<>::
-player.gd::GDScript::-1::1752617121::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1753135149::0::1::::<>CharacterBody2D<>::
 popup_menu.gd::GDScript::-1::1752617121::0::1::::<>RefCounted<>::
 quit.gd::GDScript::-1::1752617121::0::1::::<>Button<>::
 quiz_data.gd::GDScript::-1::1753132079::0::1::::<>Node<>::
 resume.gd::GDScript::-1::1752617121::0::1::::<>Button<>::
 resume_button.gd::GDScript::-1::1752620048::0::1::::<>Button<>::
-SpawnUpgrade.gd::GDScript::-1::1753132079::0::1::::<>Control<>::
+SpawnUpgrade.gd::GDScript::-1::1753133207::0::1::::<>Control<>::
 upgrade.gd::GDScript::-1::1752617121::0::1::::<>Control<>::
 ::res://Tres/::1753132067
 Phase_Description.tres::Resource/ItemBase::2233133117783688034::1753132067::0::1::::<><>::uid://b7cxa8gbw807n::::res://scripts/item_base.gd

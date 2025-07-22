@@ -13,7 +13,7 @@ var phase_timeout = false
 var can_dash = true
 var is_dashing = false
 var jump_count = 0
-var max_jumps = 1
+var max_jumps = 0
 var is_dead = false
 var respawn_position: Vector2
 
@@ -57,6 +57,12 @@ func _physics_process(delta: float) -> void:
 	
 	# Movement
 	var direction := Input.get_axis("left", "right")
+	if Input.is_action_just_pressed("left"):
+		animate.flip_h = true
+		animate.play("Walking")
+	if Input.is_action_just_pressed("right"):
+		animate.flip_h = false
+		animate.play("Walking")
 	if not is_dashing:
 		velocity.x = direction * SPEED if direction else move_toward(velocity.x, 0, SPEED)
 		animate.play("Walking")

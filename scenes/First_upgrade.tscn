@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://d3wlssfyq34aa"]
 
-[ext_resource type="Script" uid="uid://donmsbjvg31te" path="res://scripts/SpawnUpgrade.gd" id="1_ats6j"]
+[ext_resource type="Script" path="res://scripts/SpawnUpgrade.gd" id="1_ats6j"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_tq613"]
 
