@@ -13,6 +13,4 @@ res://scenes/pickup_phase.tscn
 res://scenes/player.tscn
 res://scenes/upgrade.tscn
 res://scenes/how_to_play.tscn
-res://scripts/player.gd
-res://data/questions.json
-res://scripts/death_zone.gd
+res://scripts/SpawnUpgrade.gd

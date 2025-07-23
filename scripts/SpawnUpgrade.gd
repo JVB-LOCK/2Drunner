@@ -50,8 +50,13 @@ func start_quiz():
 	quiz_panel.visible = true
 	show_question(current_question)
 
+func end_quiz():
+	quiz_active = false
+	quiz_panel.visible = false
+
+
 func show_question(index):
-	if index >= questions.size():
+	if index >= 1:
 		complete_purchase()
 		return
 	
@@ -65,7 +70,7 @@ func check_answer(selected_answer):
 	
 	if selected_answer == correct_answer:
 		current_question += 1
-		if current_question >= questions.size():
+		if current_question >= 1:
 			complete_purchase()
 		else:
 			show_question(current_question)
@@ -82,8 +87,11 @@ func handle_wrong_answer():
 
 func complete_purchase():
 	Global.phase_bought = true
+	quiz_active = false
+	buy_button.disabled = true
+	buy_button.text = "Bought"
 	print("Bought phase")
-	queue_free()
+	#queue_free()
 
 func _on_answer_1_pressed():
 	check_answer(answer_button_1.text)

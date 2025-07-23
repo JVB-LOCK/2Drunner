@@ -191,6 +191,7 @@ height = 84.0
 [node name="Player" type="CharacterBody2D"]
 texture_filter = 1
 position = Vector2(374, 388)
+scale = Vector2(0.7, 0.7)
 script = ExtResource("1_m7drd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

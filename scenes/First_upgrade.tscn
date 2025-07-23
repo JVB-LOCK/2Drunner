@@ -96,6 +96,7 @@ offset_left = 524.0
 offset_top = 159.0
 offset_right = 564.0
 offset_bottom = 182.0
+text = "Wrong asnwer"
 
 [connection signal="pressed" from="VBoxContainer/VBoxContainer2/Buy" to="." method="_on_buy_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainer2/Buy" to="VBoxContainer/VBoxContainer2/Buy" method="_on_pressed"]
