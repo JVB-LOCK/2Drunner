@@ -206,7 +206,7 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qhaxv"]
 radius = 21.5
-height = 79.7142
+height = 84.0
 
 [node name="Player" type="CharacterBody2D"]
 texture_filter = 1
@@ -218,7 +218,9 @@ script = ExtResource("1_m7drd")
 position = Vector2(80.5, -88.8751)
 scale = Vector2(2.425, 2.37188)
 sprite_frames = SubResource("SpriteFrames_dqkch")
-animation = &"Idel"
+animation = &"Dash"
+frame = 1
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(67, -37)
@@ -237,10 +239,6 @@ wait_time = 2.0
 
 [node name="DashCooldownTimer" type="Timer" parent="."]
 wait_time = 2.0
-
-[node name="WallDetector" type="RayCast2D" parent="."]
-position = Vector2(67.1429, -12.8571)
-target_position = Vector2(0, 14.2857)
 
 [connection signal="timeout" from="Phaseout" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="PhaseTimeout" to="." method="_on_can_phase_timeout"]

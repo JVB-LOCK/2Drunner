@@ -46,7 +46,7 @@ func _on_body_entered(body: Node2D):
 			(resume_button.position.y - unlock_message.size.y) - 100.0  # Above button
 		)
 		unlock_message.text = "Phase Ability Unlocked! 
-	Go to the main menu screen and click upgrade to see the upgrades you can buy"
+	Go to the main menu screen and click upgrade to see the upgrades you can buy."
 		unlock_message.visible = true
 
 		get_tree().paused = true

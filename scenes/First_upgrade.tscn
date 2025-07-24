@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://d3wlssfyq34aa"]
 
-[ext_resource type="Script" path="res://scripts/SpawnUpgrade.gd" id="1_ats6j"]
+[ext_resource type="Script" uid="uid://donmsbjvg31te" path="res://scripts/SpawnUpgrade.gd" id="1_ats6j"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_tq613"]
 
@@ -97,6 +97,14 @@ offset_top = 159.0
 offset_right = 564.0
 offset_bottom = 182.0
 text = "Wrong asnwer"
+
+[node name="CorrectAnswerLabel" type="Label" parent="QuizPanel"]
+layout_mode = 0
+offset_left = 524.0
+offset_top = 159.0
+offset_right = 564.0
+offset_bottom = 182.0
+text = "Correct"
 
 [connection signal="pressed" from="VBoxContainer/VBoxContainer2/Buy" to="." method="_on_buy_pressed"]
 [connection signal="pressed" from="VBoxContainer/VBoxContainer2/Buy" to="VBoxContainer/VBoxContainer2/Buy" method="_on_pressed"]

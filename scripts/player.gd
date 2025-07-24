@@ -6,6 +6,7 @@ const JUMP_VELOCITY = -400.0
 const DASH_SPEED = 1000.0 
 const DASH_DURATION = 0.2
 const DASH_COOLDOWN = 1.0
+const WALL_BUMP_FORCE = 300.0  # Force applied when hitting wall during dash
 
 # State variables
 var is_phased = false
@@ -16,6 +17,7 @@ var jump_count = 0
 var max_jumps = 0
 var is_dead = false
 var respawn_position: Vector2
+var dash_direction := 1  # Track dash direction for wall detection
 
 # Nodes
 @onready var timer: Timer = $Phaseout
@@ -33,7 +35,7 @@ func _ready() -> void:
 	add_child(dash_cooldown_timer)
 	dash_cooldown_timer.one_shot = true
 	dash_cooldown_timer.timeout.connect(_enable_dash)
-	
+
 func _physics_process(delta: float) -> void:
 	if is_dead:
 		return
@@ -66,8 +68,8 @@ func _physics_process(delta: float) -> void:
 	if not is_dashing:
 		velocity.x = direction * SPEED if direction else move_toward(velocity.x, 0, SPEED)
 		animate.play("Walking")
-	# Dashing
-	if Input.is_action_just_pressed("dash") and can_dash:
+	# Dashing - only allowed when on floor
+	if Input.is_action_just_pressed("dash") and can_dash and is_on_floor():
 		_start_dash(direction)
 	if direction == 0:
 		animate.play("Idel")
@@ -79,6 +81,19 @@ func _physics_process(delta: float) -> void:
 		disable_phase()
 	
 	move_and_slide()
+	
+	# Wall bump check - only during dash
+	if is_dashing:
+		_check_wall_bump()
+
+func _check_wall_bump():
+	# Check if we're hitting a wall in our dash direction
+	if is_on_wall() and (get_wall_normal().x * dash_direction < 0):
+		# Apply upward force
+		velocity.y = -WALL_BUMP_FORCE
+		# Optional: Add a small horizontal bounce
+		velocity.x = -dash_direction * WALL_BUMP_FORCE * 0.5
+		_end_dash()  # End dash early when hitting wall
 
 func enable_phase():
 	is_phased = true
@@ -94,9 +109,8 @@ func disable_phase():
 func _start_dash(direction: float):
 	can_dash = false
 	is_dashing = true
-	velocity = Vector2(
-		direction if direction != 0 else sign(velocity.x) if velocity.x != 0 else 1, 0
-	) * DASH_SPEED
+	dash_direction = direction if direction != 0 else sign(velocity.x) if velocity.x != 0 else 1
+	velocity = Vector2(dash_direction, 0) * DASH_SPEED
 	
 	dash_timer.start(DASH_DURATION)
 	dash_cooldown_timer.start(DASH_COOLDOWN)
@@ -105,6 +119,7 @@ func _start_dash(direction: float):
 func _end_dash():
 	is_dashing = false
 	collision_shape.disabled = false
+	velocity.x = 0  # Stop horizontal movement after dash
 
 func _enable_dash():
 	can_dash = true

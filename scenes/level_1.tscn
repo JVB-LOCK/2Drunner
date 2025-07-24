@@ -1,19 +1,20 @@
-[gd_scene load_steps=24 format=4 uid="uid://dh524d7u63if3"]
+[gd_scene load_steps=26 format=4 uid="uid://dh524d7u63if3"]
 
-[ext_resource type="Script" path="res://scripts/pause.gd" id="1_15mv3"]
+[ext_resource type="Script" uid="uid://uutuijpvuf5q" path="res://scripts/pause.gd" id="1_15mv3"]
 [ext_resource type="PackedScene" uid="uid://c6257nqclgmx8" path="res://scenes/player.tscn" id="2_4cllb"]
 [ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_off_screen.tscn" id="3_a8ytl"]
-[ext_resource type="Script" path="res://scripts/iteams.gd" id="4_521tx"]
+[ext_resource type="Script" uid="uid://0tlu5vibmije" path="res://scripts/iteams.gd" id="4_521tx"]
 [ext_resource type="PackedScene" uid="uid://bl4qvonu4s85p" path="res://scenes/pickup_phase.tscn" id="5_7h123"]
 [ext_resource type="Texture2D" uid="uid://bbcf5f1pwg76s" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="5_7nomh"]
 [ext_resource type="PackedScene" uid="uid://42na84ktkflj" path="res://scenes/killzone.tscn" id="6_tars4"]
-[ext_resource type="Script" path="res://scripts/camera_2d.gd" id="7_ipxh5"]
+[ext_resource type="Script" uid="uid://bsqkwdcqhr1wb" path="res://scripts/camera_2d.gd" id="7_ipxh5"]
 [ext_resource type="Texture2D" uid="uid://bq48wgewdixys" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Props-Rocks.png" id="7_x2xxo"]
 [ext_resource type="Texture2D" uid="uid://e363gpko30y8" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Buildings.png" id="8_2cbcq"]
 [ext_resource type="Texture2D" uid="uid://b3neb580qy6op" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Hive.png" id="9_isj1j"]
 [ext_resource type="Texture2D" uid="uid://cal4e2ukfispp" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png" id="10_so66j"]
 [ext_resource type="Texture2D" uid="uid://6ym0ct85508i" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="11_tr1x6"]
 [ext_resource type="Texture2D" uid="uid://7ht6r1yfbctj" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png" id="12_d5akn"]
+[ext_resource type="Script" uid="uid://bnv71sxytgtpo" path="res://scripts/win.gd" id="15_6dial"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mmfjm"]
 texture = ExtResource("8_2cbcq")
@@ -1914,9 +1915,13 @@ sources/4 = SubResource("TileSetAtlasSource_hnsmf")
 sources/5 = SubResource("TileSetAtlasSource_nossa")
 
 [sub_resource type="LabelSettings" id="LabelSettings_6g50d"]
+font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_5evrk"]
-distance = -54.2
+distance = -34.13
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2aecg"]
+size = Vector2(20, 188.6)
 
 [node name="Level 1" type="Node"]
 script = ExtResource("1_15mv3")
@@ -1997,6 +2002,15 @@ scale = Vector2(0.22, 0.22)
 zoom = Vector2(1.25, 1.25)
 limit_bottom = 700
 script = ExtResource("7_ipxh5")
+
+[node name="Goal" type="Area2D" parent="."]
+script = ExtResource("15_6dial")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Goal"]
+position = Vector2(1002, -183.5)
+scale = Vector2(5, 5)
+shape = SubResource("RectangleShape2D_2aecg")
+one_way_collision_margin = 74.1
 
 [connection signal="pressed" from="CanvasLayer/Main_Menu" to="Items/Pickup_Phase" method="_on_main_menu_pressed"]
 [connection signal="pressed" from="CanvasLayer/Resume_button" to="Items/Pickup_Phase" method="_on_resume_pressed"]
