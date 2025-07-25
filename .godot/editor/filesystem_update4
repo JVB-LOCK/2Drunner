@@ -14,9 +14,4 @@ res://scenes/pickup_phase.tscn
 res://scenes/upgrade.tscn
 res://scenes/how_to_play.tscn
 res://scenes/win.tscn
-res://scripts/finshed.gd
-res://pick_ups/phaseunlocked.gd
-res://scripts/player.gd
-res://scripts/win.gd
 res://scripts/resume.gd
-res://scripts/SpawnUpgrade.gd
