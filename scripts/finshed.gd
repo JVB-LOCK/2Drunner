@@ -4,9 +4,8 @@ var pause_menu_scene = preload("res://scenes/win.tscn")
 var pause_menu_instance: Control = null  
 var pause_canvas_layer: CanvasLayer = null
 
-
-func _on_goal_body_entered(body: Node2D) -> void:
-	if body is CharacterBody2D:
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("ui_cancel"):
 		if get_tree().paused:
 			# Unpause and cleanup
 			get_tree().paused = false

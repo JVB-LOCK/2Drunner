@@ -14,10 +14,10 @@ var phase_timeout = false
 var can_dash = true
 var is_dashing = false
 var jump_count = 0
-var max_jumps = 0
 var is_dead = false
 var respawn_position: Vector2
-var dash_direction := 1  # Track dash direction for wall detection
+var dash_direction := 1  
+var max_jumps = Global.max_jumps
 
 # Nodes
 @onready var timer: Timer = $Phaseout
@@ -36,6 +36,9 @@ func _ready() -> void:
 	dash_cooldown_timer.one_shot = true
 	dash_cooldown_timer.timeout.connect(_enable_dash)
 
+func _process(_delta: float) -> void:
+	max_jumps = Global.max_jumps
+	
 func _physics_process(delta: float) -> void:
 	if is_dead:
 		return

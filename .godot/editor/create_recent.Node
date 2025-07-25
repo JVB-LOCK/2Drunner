@@ -1,15 +1,14 @@
+Node
+Label
 Area2D
 RayCast2D
-Label
 Button
 Panel
 AnimatedSprite2D
 CanvasLayer
 Control
-Node
 ColorRect
 Container
 Timer
 PopupMenu
 SubViewportContainer
-GridContainer

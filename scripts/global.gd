@@ -5,3 +5,4 @@ var phase_bought = false
 var phased_picked_up = false
 var respawn_points = []
 var SPEED = 0
+var max_jumps = 0

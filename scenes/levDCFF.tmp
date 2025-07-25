@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" path="res://scripts/pause.gd" id="1_15mv3"]
 [ext_resource type="PackedScene" uid="uid://c6257nqclgmx8" path="res://scenes/player.tscn" id="2_4cllb"]
-[ext_resource type="Script" path="res://scripts/win.gd" id="2_nebtg"]
 [ext_resource type="PackedScene" uid="uid://dnuuixb3ofoo0" path="res://scenes/kill_off_screen.tscn" id="3_a8ytl"]
 [ext_resource type="Script" path="res://scripts/iteams.gd" id="4_521tx"]
 [ext_resource type="PackedScene" uid="uid://bl4qvonu4s85p" path="res://scenes/pickup_phase.tscn" id="5_7h123"]
@@ -15,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://cal4e2ukfispp" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png" id="10_so66j"]
 [ext_resource type="Texture2D" uid="uid://6ym0ct85508i" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="11_tr1x6"]
 [ext_resource type="Texture2D" uid="uid://7ht6r1yfbctj" path="res://assests/Legacy-Fantasy - High Forest 2.0/Legacy-Fantasy - High Forest 2.3/Assets/Tree-Assets.png" id="12_d5akn"]
+[ext_resource type="Script" path="res://scripts/finshed.gd" id="15_bdhuh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mmfjm"]
 texture = ExtResource("8_2cbcq")
@@ -1927,7 +1927,7 @@ size = Vector2(20, 188.6)
 script = ExtResource("1_15mv3")
 
 [node name="Node" type="Node" parent="."]
-script = ExtResource("2_nebtg")
+script = ExtResource("15_bdhuh")
 
 [node name="Player" parent="." instance=ExtResource("2_4cllb")]
 z_index = 100
@@ -2008,8 +2008,7 @@ script = ExtResource("7_ipxh5")
 
 [node name="Goal" type="Area2D" parent="."]
 
-[node name="Goal2" type="CollisionShape2D" parent="Goal"]
-unique_name_in_owner = true
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Goal"]
 position = Vector2(456, -58)
 scale = Vector2(5, 5)
 shape = SubResource("RectangleShape2D_2aecg")

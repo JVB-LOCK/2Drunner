@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1u3h44dntwkk"]
+
+[ext_resource type="Script" path="res://scripts/quit.gd" id="1_iqim1"]
+[ext_resource type="Script" path="res://scripts/resume.gd" id="2_esd12"]
+
+[sub_resource type="GDScript" id="GDScript_7re8b"]
+script/source = "extends Control
+
+var pause_menu_scene = preload(\"res://scenes/win.tscn\")
+var pause_menu_instance: Control = null  
+var pause_canvas_layer: CanvasLayer = null
+
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed(\"ui_cancel\"):
+		if get_tree().paused:
+			# Unpause and cleanup
+			get_tree().paused = false
+			if pause_canvas_layer:
+				pause_canvas_layer.queue_free()
+				pause_canvas_layer = null
+		else:
+			# Pause and create menu
+			get_tree().paused = true
+			
+			# 1. Create CanvasLayer
+			pause_canvas_layer = CanvasLayer.new()
+			
+			# 2. Create menu - THIS IS WHERE THE ERROR WAS HAPPENING
+			pause_menu_instance = pause_menu_scene.instantiate() as Control  # Explicit cast
+			if !pause_menu_instance:
+				push_error(\"Pause menu scene root is not a Control node!\")
+				return
+				
+			pause_menu_instance.process_mode = Node.PROCESS_MODE_ALWAYS
+			pause_canvas_layer.add_child(pause_menu_instance)
+		
+			# 3. Add to scene tree
+			get_tree().root.add_child(pause_canvas_layer)
+"
+
+[node name="Pause_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = SubResource("GDScript_7re8b")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.25098)
+
+[node name="Back_Pause" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 492.0
+offset_top = 318.0
+offset_right = 652.0
+offset_bottom = 370.0
+text = "Main Menu"
+script = ExtResource("1_iqim1")
+
+[node name="Resume" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 491.0
+offset_top = 234.0
+offset_right = 651.0
+offset_bottom = 286.0
+text = "Play Again"
+script = ExtResource("2_esd12")
+
+[connection signal="pressed" from="ColorRect/Back_Pause" to="ColorRect/Back_Pause" method="_on_pressed"]
+[connection signal="pressed" from="ColorRect/Resume" to="ColorRect/Resume" method="_on_pressed"]

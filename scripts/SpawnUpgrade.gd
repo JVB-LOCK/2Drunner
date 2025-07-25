@@ -8,8 +8,8 @@ extends Control
 @onready var wrong_answer_label = $QuizPanel/WrongAnswerLabel
 @onready var correct_answer_label = $QuizPanel/CorrectAnswerLabel
 
-const WRONG_ANSWER_DISPLAY_TIME = 1.5
-const CORRECT_ANSWER_DISPLAY_TIME = 0.5
+const WRONG_ANSWER_DISPLAY_TIME = 0.2
+const CORRECT_ANSWER_DISPLAY_TIME = 0.2
 
 var questions = []
 var quiz_active = false

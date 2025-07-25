@@ -6,12 +6,12 @@
   },
   {
 	"Questions": "(2000-1700)/5",
-	"Right": 705,
-	"Wrong": 600
+	"Right": 60,
+	"Wrong": 70
   },
   {
-	"Questions": "3 power of 0",
-	"Right": 0,
-	"Wrong": 1
+	"Questions": "3^0",
+	"Right": 1,
+	"Wrong": 0
   }
 ]
